@@ -1,20 +1,844 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
+<div class="wrapper">
+
+  <div id="preloader">
+    <div id="status">
+      <div class="status-mes">
+        <h4>Pablo Ibanez</h4>
+      </div>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+    <div class="container">
+
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Pablo Ibanez</a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#intro">home</a></li>
+          <li><a href="#profile">Profile</a></li>
+          <li><a href="#services">Skills</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
+  <section id="intro" class="section">
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-md-12">
+
+          <div class="hello wow bounceInDown">
+            <h1>Hello, I'm Pablo Ibanez</h1>
+            <h3><span class="rotate">Front End Developer. | Software Engineer. | Full Stack Developer.</span></h3>
+          </div>
+
+          <a href="#profile">
+            <div class="mouse-icon">
+              <div class="wheel"></div>
+            </div>
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="profile-contact">
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-sm-4 wow bounceInLeft">
+          <div class="profile-item">
+            <i class="icon-envelope-o"></i>
+            <h5><a href="#">me@pabloibanez.com</a></h5>
+          </div>
+        </div>
+
+        <div class="col-sm-4 wow bounceInUp">
+          <div class="profile-item">
+            <i class="icon-phone"></i>
+            <h5>+44 (0) 7931415156</h5>
+          </div>
+        </div>
+
+        <div class="col-sm-4 wow bounceInRight">
+          <div class="profile-item">
+            <i class="icon-marker"></i>
+            <h5>Royal Docklands, London, UK</h5>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="profile" class="section">
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-md-12 headline wow bounceInDown">
+          <h2>Pablo Ibanez</h2>
+          <p>Full Stack Web Developer | Software Engineer | AngularJS Developer.</p>
+        </div>
+
+        <div class="col-md-3 col-sm-6 hidden-xs wow bounceInLeft">
+          <img class="avatar" src="assets/images/me.jpg" alt="">
+        </div>
+
+        <div class="col-md-3 col-sm-6 wow bounceInUp">
+
+          <div class="profile-widget">
+            <h3>Skillset</h3>
+
+            <h5>Angular / Angular 2</h5>
+            <div class="skill-bar">
+              <div class="skill-rate-on"></div>
+              <div class="skill-rate-on"></div>
+              <div class="skill-rate-on"></div>
+              <div class="skill-rate-on"></div>
+            </div>
+
+            <h5>HTML5 / CSS3 / SASS</h5>
+            <div class="skill-bar">
+              <div class="skill-rate-on"></div>
+              <div class="skill-rate-on"></div>
+              <div class="skill-rate-on"></div>
+              <div class="skill-rate-off"></div>
+            </div>
+
+            <h5>Javascript / TypeScript</h5>
+            <div class="skill-bar">
+              <div class="skill-rate-on"></div>
+              <div class="skill-rate-on"></div>
+              <div class="skill-rate-on"></div>
+              <div class="skill-rate-off"></div>
+            </div>
+
+            <h5>.NET / C# / ASP.NET MVC</h5>
+            <div class="skill-bar skill-bar-last">
+              <div class="skill-rate-on"></div>
+              <div class="skill-rate-on"></div>
+              <div class="skill-rate-off"></div>
+              <div class="skill-rate-off"></div>
+            </div>
+            <a class="view-all-skills">View all skills</a>
+          </div>
+
+          <div class="profile-widget">
+            <h3>Social Profiles</h3>
+            <ul class="widget-social">
+              <li><a href="https://www.linkedin.com/in/pablo-ibanez-58150555/" target="_blank"><i class="icon-linkedin fa-fw"></i></a></li>
+              <li><a href="https://github.com/pabloibanezcom" target="_blank"><i class="icon-github"></i></a></li>
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="col-md-6 col-sm-12 wow bounceInRight professional-profile">
+          <h3>Profesional Profile</h3>
+          <p class="justify-xs">I am an ambitious, motivated and compromised web developer and software engineer with more than 6 years of experience
+            in the IT industry. I think effectiveness and well done job are the keys.</p>
+          <p class="justify-xs">Although I specialize in front -end solutions I have strong experience in the full cycle of the web development covering
+            since database to the UI. I have worked in multiple agile environments so I can apply agile techniques to improve
+            the pace of the cycle.</p>
+          <p class="justify-xs">I have worked in projects with some of the largest private companies in Europe (Telefonica, Deutsche Bank, Iberdrola,
+            ...) as well in public sector (Ministry of Justice UK, Aragon Parliament) having very different business such as real-estate,
+            banking, energy.</p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="stats" class="callout">
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-md-3 col-sm-12 wow bounceInLeft">
+          <h3>My hobbies</h3>
+          <br>
+          <h4>( besides developing... <i class="fa fa-smile-o "></i> )</h4>
+        </div>
+
+        <div class="col-md-3 col-sm-4 wow bounceInDown">
+          <div class="stat">
+            <div class="stat-icon text-center">
+              <h2><i class="icon-futbol-o"></i></h2>
+            </div>
+            <h3 class="text-center">Football</h3>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-4 wow bounceInUp">
+          <div class="stat">
+            <div class="stat-icon text-center">
+              <h2><i class="icon-heartbeat"></i></h2>
+            </div>
+            <h3 class="text-center">Doing Exercise</h3>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-4 wow bounceInRight">
+          <div class="stat">
+            <div class="stat-icon text-center">
+              <h2><i class="icon-university"></i></h2>
+            </div>
+            <h3 class="text-center">History</h3>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="services" class="section">
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-md-12 headline wow bounceInDown">
+          <h2>What i can do</h2>
+          <p>My Services.</p>
+        </div>
+
+        <div class="col-md-12">
+
+          <div class="row">
+
+            <div class="col-sm-4 wow bounceInLeft">
+              <div class="service">
+                <div class="icon">
+                  <i class="icon-js"></i>
+                </div>
+                <h4>Front end</h4>
+                <div class="text">
+                  <p class="justify-xs">Very strong experience on AngularJS and getting more and more experience on Angular 2 &amp; TypeScript. Besides
+                    that I also deal everyday with some of the most popular Javascript libraries and frameworks.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-4 wow bounceInUp">
+              <div class="service">
+                <div class="icon">
+                  <i class="icon-visual-studio"></i>
+                </div>
+                <h4>.NET</h4>
+                <div class="text">
+                  <p class="justify-xs">Extensive knowledge and experience on most of the .NET technologies such as C#, ASP.Net MVC, ASP.Net Web API or
+                    Entity Framework.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-4 wow bounceInRight">
+              <div class="service">
+                <div class="icon">
+                  <i class="icon-team"></i>
+                </div>
+                <h4>Agile / Teamwork</h4>
+                <div class="text">
+                  <p class="justify-xs">I believe team working is a key to a successful delivery. I have extensive experience working in Agile environments.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="row">
+
+            <div class="col-sm-4 wow bounceInUp" data-wow-delay=".2s">
+              <div class="service">
+                <div class="icon">
+                  <i class="icon-maps"></i>
+                </div>
+                <h4>Geolocation</h4>
+                <div class="text">
+                  <p class="justify-xs">Applying geolocation to your business will be a very useful feature. Why don't we do it? I have very good knowledge
+                    of Google Maps API and all its libraries (places, autocomplete, drawing, ...).</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-4 wow bounceInUp" data-wow-delay=".4s">
+              <div class="service">
+                <div class="icon">
+                  <i class="icon-responsive_design"></i>
+                </div>
+                <h4>Responsive design</h4>
+                <div class="text">
+                  <p class="justify-xs">Showing all your content in a proper way to your users is a must nowadays. I can help you with this by using Bootstrap,
+                    HTML5, SASS and new design technologies coming onto the market every day. </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-4 wow bounceInUp" data-wow-delay=".6s">
+              <div class="service">
+                <div class="icon">
+                  <i class="icon-idea"></i>
+                </div>
+                <h4>Fresh ideas</h4>
+                <div class="text">
+                  <p class="justify-xs">Besides achieving the requirements from the employers/clients I also like to suggest new solutions to improve the
+                    quality of the product. I'm not a conformist developer.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="callout">
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-md-3 wow bounceInLeft">
+          <h3>References</h3>
+        </div>
+
+        <div class="col-md-9 wow bounceInRight">
+
+          <div id="owl-references" class="owl-carousel">
+
+            <div class="owl-item">
+              <p class="reference-text">"Pablo is a very passionate , self-motivated developer. He is continuously researching and playing with new technologies
+                to ensure that he is mastering technologies needed by the business not only for the moment but for two steps ahead
+                as well ! He is a very productive developer and very good in coming up with agile and efficient solutions to technical
+                challenges and problems."</p>
+              <div class="reference-contact">
+                <img class="imageFrame" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/3/000/076/125/297b14d.jpg" />
+                <div>
+                  <div>
+                    Abdelrahman Hassan
+                  </div>
+                  <div>
+                    Solution Architect & Lead Developer at Savills in 2016
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="owl-item">
+              <p class="reference-text">"Pablo is simply a great worker. What I like about him is that he does always his best to be a better and better
+                developer."
+              </p>
+              <div class="reference-contact">
+                <img class="imageFrame" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/1/000/197/2a9/06851c0.jpg" />
+                <div>
+                  <div>
+                    Javier Martinez
+                  </div>
+                  <div>
+                    Head of call center development at Telefonica in 2013
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="owl-item">
+              <p class="reference-text">"Very motivated developer. Working with him was a really pleasure."</p>
+              <div class="reference-contact">
+                <img class="imageFrame" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/4/000/14e/2a6/382bdb3.jpg" />
+                <div>
+                  <div>
+                    Jorge Prats
+                  </div>
+                  <div>
+                    Solutions Architect, Lead .NET Developer at GFT in 2011
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="owl-item">
+              <p class="reference-text">"Although he was only intern he helped us a lot with the development of our website."</p>
+              <div class="reference-contact">
+                <img class="imageFrame" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/2/000/05f/25d/3fee54c.jpg" />
+                <div>
+                  <div>
+                    Joaquin Dominguez
+                  </div>
+                  <div>
+                    Head of IT at Cortes de Aragon in 2008
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="resume" class="section">
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-md-12 headline wow bounceInDown">
+          <h2>Resume</h2>
+          <p>My education and experience.</p>
+        </div>
+
+      </div>
+
+      <div class="row resume-items">
+
+        <div class="col-md-3 wow bounceInLeft">
+          <h3>Experience</h3>
+        </div>
+
+        <div class="col-md-6 col-sm-8 resume-item wow bounceInUp">
+          <h4>Front End Web Consultant</h4>
+          <p class="justify-xs">Working in one of the most challenging UK Government project - CJS Common Platform Programme. It is a single system
+            providing access to all material necessary to deal with cases efficiently and effectively in Ministry of Justice.
+            The project aims using latest agile methodologies to digitalise part of the UK criminal justice system to keep judges,
+            defendants, prosecutors and common access to online version of the cases.</p>
+          <a target="_blank" href="https://insidehmcts.blog.gov.uk/2016/06/30/introduction-to-common-platform-programme/">https://insidehmcts.blog.gov.uk/2016/06/30/introduction-to-common-platform-programme/</a>
+          <br>
+          <p class="justify-xs">This platform is mainly developed with Angular 1.5 (migrating to Angular 2 now), Typescript, SASS. It’s critically
+            important to be properly tested (Unit test and E2E test). Other technologies used in the role: npm, Bower, Gulp, Git,
+            Gerrit, RAML.. All based in an asynchronous CQRS architecture.</p>
+          <hr class="hidden-xs">
+        </div>
+
+        <div class="col-md-3 col-sm-4 resume-place wow bounceInRight">
+          <h4><i class="fa fa-suitcase"></i> Ministry of Justice UK</h4>
+          <i class="fa fa-calendar"></i> 2016 - Now
+          <br><i class="fa fa-map-marker"></i> London, UK
+          <hr class="visible-xs">
+        </div>
+
+        <div class="col-md-6 col-md-offset-3 col-sm-8 resume-item wow bounceInUp">
+          <h4>Full Stack Web Developer</h4>
+          <p class="justify-xs">Developing Global Property Search Application for Savills. This application is consumed from all local Savills sites
+            across the world (more than 50). I have worked in two different stages. The first one consisted on improving the existing
+            product, the second was going a step further: developing a new version of the product taking advantage of some of
+            the new technologies in the market.</p>
+          <ul class="customlist">
+            <li>
+              Implementation of Single-page architecture (AngularJS).
+            </li>
+            <li>
+              Implementation of Responsive design (Bootstrap & Sass).
+            </li>
+            <li>
+              Implementation of custom user experience (Authentication).
+            </li>
+            <li>
+              Implementation of API architecture.
+            </li>
+            <li>
+              Support to multiple languages and cultures.
+            </li>
+          </ul>
+          <hr class="hidden-xs">
+        </div>
+
+        <div class="col-md-3 col-sm-4 resume-place wow bounceInRight">
+          <h4><i class="fa fa-suitcase"></i> Savills</h4>
+          <i class="fa fa-calendar"></i> 2013 - 2016
+          <br><i class="fa fa-map-marker"></i> London, UK
+          <hr class="visible-xs">
+        </div>
+
+        <div class="col-md-6 col-md-offset-3 col-sm-8 resume-item wow bounceInUp">
+          <h4>Web Developer</h4>
+          <p class="justify-xs">We develop and support not only for Spanish companies (Iberdrola, Iberia, Spanish Government ...) but also for multinational
+            companies (Allianz, Barclays). We offer voice applications and agent applications. Each member of the team is responsible
+            for several projects so I have the full responsibility of some of them.</p>
+          <ul class="customlist">
+            <li>
+              Internal web apps for customers based on .NET environment (ASP.NET MVC) on server-side and jQuery and Knockout on client-side.
+            </li>
+            <li>
+              Multi-client support and development of call-center n-tier architecture websites.
+            </li>
+            <li>
+              Maintenance of Internet Information Services and database (MSSQL Server and Oracle) on server side.
+            </li>
+            <li>
+              Coordination of all upgrades of web applications in production environment.
+            </li>
+            <li>
+              Provided support to clients by dealing directly with them.
+            </li>
+          </ul>
+          <hr class="hidden-xs">
+        </div>
+
+        <div class="col-md-3 col-sm-4 resume-place wow bounceInRight">
+          <h4><i class="fa fa-suitcase"></i> Telefonica</h4>
+          <i class="fa fa-calendar"></i> 2011 - 2013
+          <br><i class="fa fa-map-marker"></i> Madrid, Spain
+          <hr class="visible-xs">
+        </div>
+
+        <div class="col-md-6 col-md-offset-3 col-sm-8 resume-item wow bounceInUp">
+          <h4>Junior Developer</h4>
+          <p class="justify-xs">I worked in a couple of projects for the financial services industry (Deutsche Bank and Ibercaja Bank) where I could
+            acquire strong .NET skills.</p>
+          <ul class="customlist">
+            <li>
+              Object Orientated Analysis / Design of web application by using ASP.Net and C#
+            </li>
+            <li>
+              Object Orientated Analysis / Design of data-transfer layer (Web services).
+            </li>
+            <li>
+              Design and development of database and stored procedures by using MSSQL Server.
+            </li>
+            <li>
+              Use of some third-party APIs such as Google Maps API.
+            </li>
+          </ul>
+          <hr class="hidden-xs">
+        </div>
+
+        <div class="col-md-3 col-sm-4 resume-place wow bounceInRight">
+          <h4><i class="fa fa-suitcase"></i> GFT Group</h4>
+          <i class="fa fa-calendar"></i> 2010 - 2011
+          <br><i class="fa fa-map-marker"></i> Zaragoza, Spain
+          <hr class="visible-xs">
+        </div>
+
+        <div class="col-md-6 col-md-offset-3 col-sm-8 resume-item wow bounceInUp">
+          <h4>Web Developer (Internship)</h4>
+          <p class="justify-xs">My first experience consisted on managing the Aragon Parliament website. I used Joomla CMS, Javascript, PHP, MySQL,
+            Apache. Although some of the used technologies don't play an important role in my current skill set I could learn
+            a lot about basics of professional team work.</p>
+          <hr class="hidden-xs">
+        </div>
+
+        <div class="col-md-3 col-sm-4 resume-place wow bounceInRight">
+          <h4><i class="fa fa-suitcase"></i> Aragon Parliament</h4>
+          <i class="fa fa-calendar"></i> 2007 - 2008
+          <br><i class="fa fa-map-marker"></i> Zaragoza, Spain
+          <hr class="visible-xs">
+        </div>
+
+      </div>
+
+      <div class="row resume-items">
+
+        <div class="col-md-3 wow bounceInLeft">
+          <h3>Education</h3>
+        </div>
+
+        <div class="col-md-6 col-sm-8 resume-item wow bounceInUp">
+          <h4>Master's programme in Software Engineering</h4>
+          <ul class="customlist">
+            <li>
+              .NET development (C#, ASP.NET, LINQ)
+            </li>
+            <li>
+              Distributed software development
+            </li>
+            <li>
+              Software verification and validation
+            </li>
+            <li>
+              Real-Time systems
+            </li>
+          </ul>
+          <hr class="hidden-xs">
+        </div>
+
+        <div class="col-md-3 col-sm-4 resume-place wow bounceInRight">
+          <h4><i class="fa fa-suitcase"></i> Mälardalens högskola</h4>
+          <i class="fa fa-calendar"></i> 2008 - 2010
+          <br><i class="fa fa-map-marker"></i> Västerås, Sweden
+          <hr class="visible-xs">
+        </div>
+
+        <div class="col-md-6 col-md-offset-3 col-sm-8 resume-item wow bounceInUp">
+          <h4>Computer Scientist and Engineer Degree</h4>
+          <ul class="customlist">
+            <li>
+              Object Oriented Programming (Java)
+            </li>
+            <li>
+              Database Management (SQL)
+            </li>
+          </ul>
+          <hr class="hidden-xs">
+        </div>
+
+        <div class="col-md-3 col-sm-4 resume-place wow bounceInRight">
+          <h4><i class="fa fa-suitcase"></i> Zaragoza University</h4>
+          <i class="fa fa-calendar"></i> 2005 - 2008
+          <br><i class="fa fa-map-marker"></i> Zaragoza, Spain
+          <hr class="visible-xs">
+        </div>
+
+      </div>
+
+      <div class="row">
+
+        <div class="col-md-6 col-md-offset-3 wow bounceInUp downloadcv-container">
+          <a href="https://drive.google.com/a/pabloibanez.com/file/d/0B3COmw5fMR0hUC1pWG1PUmt2a3c/view?usp=sharing" target="_blank"
+           class="btn btn-default btn-custom-2"><i class="fa fa-cloud-download icon-before"></i> Download CV</a>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="clients" class="callout">
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-md-3 wow bounceInLeft">
+          <h3>Experience with</h3>
+        </div>
+
+        <div class="col-md-9 wow bounceInRight">
+
+          <div id="owl-clients" class="owl-carousel">
+
+            <div class="owl-item">
+              <img src="assets/images/logo/allianz.png" alt="">
+              <h4>Allianz</h4>
+            </div>
+
+            <div class="owl-item">
+              <img src="assets/images/logo/deutsche-bank.png" alt="">
+              <h4>Deutsche Bank</h4>
+            </div>
+
+            <div class="owl-item">
+              <img src="assets/images/logo/ibercaja.png" alt="">
+              <h4>Ibercaja Banco</h4>
+            </div>
+
+            <div class="owl-item">
+              <img src="assets/images/logo/iberdrola.png" alt="">
+              <h4>Iberdrola / Scottish Power</h4>
+            </div>
+
+            <div class="owl-item">
+              <img src="assets/images/logo/moj.png" alt="">
+              <h4>Ministry of Justice UK</h4>
+            </div>
+
+            <div class="owl-item">
+              <img src="assets/images/logo/savills.png" alt="">
+              <h4>Savills</h4>
+            </div>
+
+            <div class="owl-item">
+              <img src="assets/images/logo/telefonica.png" alt="">
+              <h4>Telefonica</h4>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="portfolio" class="section">
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-md-12 headline wow bounceInDown">
+          <h2>Portfolio</h2>
+          <p>Some of the public projects I´ve worked on.</p>
+        </div>
+
+        <div class="col-md-4 col-sm-6 wow bounceInLeft">
+          <a href="http://www.cortesaragon.es" target="_blank">
+            <div class="portfolio-item">
+              <div class="portfolio-item-preview">
+                <img src="assets/images/portfolio/cortes_aragon.jpg" alt="">
+              </div>
+              <div class="portfolio-item-description">
+                <h3>Aragon Parliament</h3>
+                <p>HTML / CSS / Javascript </p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-4 col-sm-6 wow bounceInUp">
+          <a href="http://www.savills.co.uk" target="_blank">
+            <div class="portfolio-item">
+              <div class="portfolio-item-preview">
+                <img src="assets/images/portfolio/savills.jpg" alt="">
+              </div>
+              <div class="portfolio-item-description">
+                <h3>Savills</h3>
+                <p>AngularJS / Web Api / Bootstrap</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-4 col-sm-6 wow bounceInRight">
+          <a href="http://www.cityroommap.com" target="_blank">
+            <div class="portfolio-item">
+              <div class="portfolio-item-preview">
+                <img src="assets/images/portfolio/cityroommap.jpg" alt="">
+              </div>
+              <div class="portfolio-item-description">
+                <h3>City Room Map</h3>
+                <h5>(Under construction)</h5>
+                <p>AngularJS / Web Api / SASS</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="contact" class="section">
+
+    <div id="contact_map"></div>
+
+    <div id="contact_map_shadow"></div>
+
+    <div class="contact_container">
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-md-12 headline wow bounceInLeft">
+            <h2>Contact Me</h2>
+            <p>Drop me a line or give me a ring. I´d love to hear you.</p>
+          </div>
+
+          <div class="col-md-6 wow bounceInUp contact-details">
+
+            <ul class="iconlist">
+              <li><i class="fa fa-fw fa-map-marker"></i>Royal Docklands, London, UK</li>
+              <li><i class="fa fa-fw fa-phone"></i>+44 (0) 7931415156</li>
+              <li><i class="fa fa-fw fa-envelope-o"></i><a href="mailto:">me@pabloibanez.com</a></li>
+              <li><i class="fa fa-fw fa-globe"></i><a href="">http://www.pabloibanez.com</a></li>
+            </ul>
+
+          </div>
+
+          <div class="col-md-6 wow bounceInRight">
+
+            <form id="contact-form" role="form">
+
+              <div class="form-group">
+                <label class="sr-only" for="c_name">Name</label>
+                <input type="text" id="c_name" class="form-control" name="c_name" placeholder="Name">
+              </div>
+
+              <div class="form-group">
+                <label class="sr-only" for="c_name">Company</label>
+                <input type="text" id="c_company" class="form-control" name="c_company" placeholder="Company">
+              </div>
+
+              <div class="form-group">
+                <label class="sr-only" for="c_email">Email address</label>
+                <input type="email" id="c_email" class="form-control" name="c_email" placeholder="E-mail">
+              </div>
+
+              <div class="form-group">
+                <textarea class="form-control" id="c_message" name="c_message" rows="7" placeholder="Your message"></textarea>
+              </div>
+
+              <div class="mailButtonContainer">
+                <button type="submit" class="btn btn-custom-1">
+                  <i class="fa fa-bullhorn icon-before"></i> Send it
+                </button>
+              </div>
+
+            </form>
+
+            <div class="ajax-response"></div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+  <footer id="footer">
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-md-12">
+          <p class="copy">
+            © 2016 Pablo Ibanez.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </footer>
+
 </div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
 
