@@ -28,6 +28,7 @@
           <li><a href="#services">Skills</a></li>
           <li><a href="#resume">Resume</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
@@ -95,87 +96,7 @@
 
   </section>
 
-  <section id="profile" class="section">
-
-    <div class="container">
-
-      <div class="row">
-
-        <div class="col-md-12 headline wow bounceInDown">
-          <h2>Pablo Ibanez</h2>
-          <p>Full Stack Web Developer | Software Engineer | AngularJS Developer.</p>
-        </div>
-
-        <div class="col-md-3 col-sm-6 hidden-xs wow bounceInLeft">
-          <img class="avatar" src="assets/images/me.jpg" alt="">
-        </div>
-
-        <div class="col-md-3 col-sm-6 wow bounceInUp">
-
-          <div class="profile-widget">
-            <h3>Skillset</h3>
-
-            <h5>Angular / Angular 2</h5>
-            <div class="skill-bar">
-              <div class="skill-rate-on"></div>
-              <div class="skill-rate-on"></div>
-              <div class="skill-rate-on"></div>
-              <div class="skill-rate-on"></div>
-            </div>
-
-            <h5>HTML5 / CSS3 / SASS</h5>
-            <div class="skill-bar">
-              <div class="skill-rate-on"></div>
-              <div class="skill-rate-on"></div>
-              <div class="skill-rate-on"></div>
-              <div class="skill-rate-off"></div>
-            </div>
-
-            <h5>Javascript / TypeScript</h5>
-            <div class="skill-bar">
-              <div class="skill-rate-on"></div>
-              <div class="skill-rate-on"></div>
-              <div class="skill-rate-on"></div>
-              <div class="skill-rate-off"></div>
-            </div>
-
-            <h5>.NET / C# / ASP.NET MVC</h5>
-            <div class="skill-bar skill-bar-last">
-              <div class="skill-rate-on"></div>
-              <div class="skill-rate-on"></div>
-              <div class="skill-rate-off"></div>
-              <div class="skill-rate-off"></div>
-            </div>
-            <a class="view-all-skills">View all skills</a>
-          </div>
-
-          <div class="profile-widget">
-            <h3>Social Profiles</h3>
-            <ul class="widget-social">
-              <li><a href="https://www.linkedin.com/in/pablo-ibanez-58150555/" target="_blank"><i class="icon-linkedin fa-fw"></i></a></li>
-              <li><a href="https://github.com/pabloibanezcom" target="_blank"><i class="icon-github"></i></a></li>
-            </ul>
-          </div>
-
-        </div>
-
-        <div class="col-md-6 col-sm-12 wow bounceInRight professional-profile">
-          <h3>Profesional Profile</h3>
-          <p class="justify-xs">I am an ambitious, motivated and compromised web developer and software engineer with more than 6 years of experience
-            in the IT industry. I think effectiveness and well done job are the keys.</p>
-          <p class="justify-xs">Although I specialize in front -end solutions I have strong experience in the full cycle of the web development covering
-            since database to the UI. I have worked in multiple agile environments so I can apply agile techniques to improve
-            the pace of the cycle.</p>
-          <p class="justify-xs">I have worked in projects with some of the largest private companies in Europe (Telefonica, Deutsche Bank, Iberdrola,
-            ...) as well in public sector (Ministry of Justice UK, Aragon Parliament) having very different business such as real-estate,
-            banking, energy.</p>
-        </div>
-
-      </div>
-
-    </div>
-
-  </section>
+  <app-profile></app-profile>
 
   <section id="stats" class="callout">
 
@@ -753,6 +674,8 @@
 
   </section>
 
+  <app-projects></app-projects>
+
   <section id="contact" class="section">
 
     <div id="contact_map"></div>
@@ -822,23 +745,7 @@
 
   </section>
 
-  <footer id="footer">
-
-    <div class="container">
-
-      <div class="row">
-
-        <div class="col-md-12">
-          <p class="copy">
-            © 2016 Pablo Ibanez.
-          </p>
-        </div>
-
-      </div>
-
-    </div>
-
-  </footer>
+  <app-footer></app-footer>
 
 </div>
 
