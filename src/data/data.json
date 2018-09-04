@@ -1,0 +1,414 @@
+{
+  "roles": [
+    "INTRO.ROLES.FRONTEND",
+    "INTRO.ROLES.SOFTWARE_ENGINEER",
+    "INTRO.ROLES.FULL_STACK"
+  ],
+  "places": [
+    {
+      "id": "vasteras",
+      "name": "Västerås, Sweden",
+      "period": "2008 - 2010"
+    },
+    {
+      "id": "london",
+      "name": "London, UK",
+      "period": "2013 - now"
+    },
+    {
+      "id": "madrid",
+      "name": "Madrid, Spain",
+      "period": "2011 - 2013"
+    },
+    {
+      "id": "zaragoza",
+      "name": "Zaragoza, Spain",
+      "period": "2005 - 2008, 2010-2011"
+    }
+  ],
+  "profileContact": [
+    {
+      "name": "email",
+      "icon": "icon-envelope-o",
+      "animation": "bounceInLeft",
+      "text": "me@pabloibanez.com"
+    },
+    {
+      "name": "phone",
+      "icon": "icon-phone",
+      "animation": "bounceInUp",
+      "text": "+44 (0) 7931415156"
+    },
+    {
+      "name": "location",
+      "icon": "icon-marker",
+      "animation": "bounceInRight",
+      "text": "Royal Docklands, London, UK"
+    }
+  ],
+  "profile": {
+    "experienceLevels": 5,
+    "skillset": {
+      "main": [
+        {
+          "name": "Angular",
+          "experience": 5
+        },
+        {
+          "name": "HTML5 / CSS3 / SASS",
+          "experience": 4
+        },
+        {
+          "name": "Javascript / TypeScript",
+          "experience": 3
+        },
+        {
+          "name": ".NET / C# / ASP.NET MVC",
+          "experience": 2
+        }
+      ],
+      "additional": [
+        {
+          "name": "PROFILE.FRONTEND",
+          "skills": [
+            "React",
+            "Sass",
+            "AngularJS",
+            "Boostrap",
+            "D3.js"
+          ]
+        },
+        {
+          "name": "PROFILE.BACKEND",
+          "skills": [
+            "C#",
+            ".NET",
+            "ASP.NET MVC",
+            "Entity Framework"
+          ]
+        },
+        {
+          "name": "PROFILE.OTHER",
+          "skills": [
+            "Agile",
+            "Jira",
+            "Git",
+            "SVN",
+            "REST",
+            "MongoDB"
+          ]
+        }
+      ]
+    },
+    "socialProfiles": [
+      {
+        "name": "Linkedin",
+        "url": "https://www.linkedin.com/in/pablo-ibanez-58150555/",
+        "icon": "icon-linkedin fa-fw"
+      },
+      {
+        "name": "Github",
+        "url": "https://github.com/pabloibanezcom",
+        "icon": "icon-github"
+      }
+    ],
+    "profesionalProfile": [
+      "I am an ambitious, motivated and compromised web developer and software engineer with more than 6 years of experience in the IT industry. I think effectiveness and well done job are the keys.",
+      "Although I specialize in front -end solutions I have strong experience in the full cycle of the web development covering since database to the UI. I have worked in multiple agile environments so I can apply agile techniques to improve the pace of the cycle.",
+      "I have worked in projects with some of the largest private companies in Europe (Telefonica, Deutsche Bank, Iberdrola, ...) as well in public sector (Ministry of Justice UK, Aragon Parliament) having very different business such as real-estate, banking, energy."
+    ],
+    "hobbies": [
+      {
+        "name": "football",
+        "icon": "icon-futbol-o",
+        "animation": "bounceInDown",
+        "text": "Football"
+      },
+      {
+        "name": "running",
+        "icon": "icon-heartbeat",
+        "animation": "bounceInUp",
+        "text": "Running"
+      },
+      {
+        "name": "history",
+        "icon": "icon-university",
+        "animation": "bounceInRight",
+        "text": "History"
+      }
+    ]
+  },
+  "services": [
+    {
+      "name": "frontend",
+      "icon": "icon-js",
+      "label": "SERVICES.FRONTEND.LABEL",
+      "text": "SERVICES.FRONTEND.TEXT"
+    },
+    {
+      "name": ".net",
+      "icon": "icon-visual-studio",
+      "label": "SERVICES.DOTNET.LABEL",
+      "text": "SERVICES.DOTNET.TEXT"
+    },
+    {
+      "name": "agile",
+      "icon": "icon-team",
+      "label": "SERVICES.AGILE.LABEL",
+      "text": "SERVICES.AGILE.TEXT"
+    },
+    {
+      "name": "geolocation",
+      "icon": "icon-maps",
+      "label": "SERVICES.GEOLOCATION.LABEL",
+      "text": "SERVICES.GEOLOCATION.TEXT"
+    },
+    {
+      "name": "responsive",
+      "icon": "icon-responsive_design",
+      "label": "SERVICES.RESPONSIVE.LABEL",
+      "text": "SERVICES.RESPONSIVE.TEXT"
+    },
+    {
+      "name": "ideas",
+      "icon": "icon-idea",
+      "label": "SERVICES.IDEAS.LABEL",
+      "text": "SERVICES.IDEAS.TEXT"
+    }
+  ],
+  "references": [
+    {
+      "name": "Abdelrahman Hassan",
+      "role": "Solution Architect & Lead Developer at Savills in 2016",
+      "imgSrc": "reference_1.jpg",
+      "text": "Pablo is a very passionate , self-motivated developer. He is continuously researching and playing with new technologies to ensure that he is mastering technologies needed by the business not only for the moment but for two steps ahead as well ! He is a very productive developer and very good in coming up with agile and efficient solutions to technical challenges and problems."
+    },
+    {
+      "name": "Javier Martinez",
+      "role": "Head of call center development at Telefonica in 2013",
+      "imgSrc": "reference_1.jpg",
+      "text": "Pablo is simply a great worker. What I like about him is that he does always his best to be a better and better developer."
+    },
+    {
+      "name": "Jorge Prats",
+      "role": "Solutions Architect, Lead .NET Developer at GFT in 2011",
+      "imgSrc": "reference_1.jpg",
+      "text": "Very motivated developer. Working with him was a really pleasure."
+    },
+    {
+      "name": "Joaquin Dominguez",
+      "role": "Head of IT at Cortes de Aragon in 2008",
+      "imgSrc": "reference_1.jpg",
+      "text": "Although he was only intern he helped us a lot with the development of our website."
+    }
+  ],
+  "resume": {
+    "experience": [
+      {
+        "title": "Ministry of Justice UK",
+        "period": "2016 - Now",
+        "location": "London, UK",
+        "role": "Front End Web Consultant",
+        "paragraphs": [
+          {
+            "type": "p",
+            "text": "Working in one of the most challenging UK Government project - CJS Common Platform Programme. It is a single system providing access to all material necessary to deal with cases efficiently and effectively in Ministry of Justice. The project aims using latest agile methodologies to digitalise part of the UK criminal justice system to keep judges, defendants, prosecutors and common access to online version of the cases."
+          },
+          {
+            "type": "a",
+            "url": "https://insidehmcts.blog.gov.uk/2016/06/30/introduction-to-common-platform-programme/"
+          },
+          {
+            "type": "p",
+            "text": "This platform is mainly developed with Angular 1.5 (migrating to Angular 2 now), Typescript, SASS. It’s critically important to be properly tested (Unit test and E2E test). Other technologies used in the role: npm, Bower, Gulp, Git, Gerrit, RAML.. All based in an asynchronous CQRS architecture."
+          }
+        ]
+      },
+      {
+        "title": "Savills",
+        "period": "2013 - 2016",
+        "location": "London, UK",
+        "role": "Full Stack Web Developer",
+        "paragraphs": [
+          {
+            "type": "p",
+            "text": "Developing Global Property Search Application for Savills. This application is consumed from all local Savills sites across the world (more than 50). I have worked in two different stages. The first one consisted on improving the existing product, the second was going a step further: developing a new version of the product taking advantage of some of the new technologies in the market."
+          },
+          {
+            "type": "ul",
+            "elements": [
+              "Implementation of Single-page architecture (AngularJS).",
+              "Implementation of Responsive design (Bootstrap & Sass).",
+              "Implementation of custom user experience (Authentication).",
+              "Implementation of API architecture.",
+              "Support to multiple languages and cultures."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Telefonica",
+        "period": "2011 - 2013",
+        "location": "Madrid, Spain",
+        "role": "Web Developer",
+        "paragraphs": [
+          {
+            "type": "p",
+            "text": "We develop and support not only for Spanish companies (Iberdrola, Iberia, Spanish Government ...) but also for multinational companies (Allianz, Barclays). We offer voice applications and agent applications. Each member of the team is responsible for several projects so I have the full responsibility of some of them."
+          },
+          {
+            "type": "ul",
+            "elements": [
+              "Internal web apps for customers based on .NET environment (ASP.NET MVC) on server-side and jQuery and Knockout on client-side.",
+              "Multi-client support and development of call-center n-tier architecture websites.",
+              "Maintenance of Internet Information Services and database (MSSQL Server and Oracle) on server side.",
+              "Coordination of all upgrades of web applications in production environment.",
+              "Provided support to clients by dealing directly with them."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "GFT Group",
+        "period": "2010 - 2011",
+        "location": "Zaragoza, Spain",
+        "role": "Junior Developer",
+        "paragraphs": [
+          {
+            "type": "p",
+            "text": "I worked in a couple of projects for the financial services industry (Deutsche Bank and Ibercaja Bank) where I could acquire strong .NET skills."
+          },
+          {
+            "type": "ul",
+            "elements": [
+              "Object Orientated Analysis / Design of web application by using ASP.Net and C#.",
+              "Object Orientated Analysis / Design of data-transfer layer (Web services).",
+              "Design and development of database and stored procedures by using MSSQL Server.",
+              "Use of some third-party APIs such as Google Maps API."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Aragon Parliament",
+        "period": "2007 - 2008 ",
+        "location": "Zaragoza, Spain",
+        "role": "Web Developer (Internship)",
+        "paragraphs": [
+          {
+            "type": "p",
+            "text": "My first experience consisted on managing the Aragon Parliament website. I used Joomla CMS, Javascript, PHP, MySQL, Apache. Although some of the used technologies don't play an important role in my current skill set I could learn a lot about basics of professional team work."
+          }
+        ]
+      }
+    ],
+    "education": [
+      {
+        "title": "Mälardalens högskola",
+        "period": "2008 - 2010",
+        "location": "Västerås, Sweden",
+        "role": "Master's programme in Software Engineering",
+        "paragraphs": [
+          {
+            "type": "ul",
+            "elements": [
+              ".NET development (C#, ASP.NET, LINQ)",
+              "Distributed software development",
+              "Software verification and validation",
+              "Real-Time systems"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Zaragoza University",
+        "period": "2005 - 2008",
+        "location": "Zaragoza, Spain",
+        "role": "Computer Scientist and Engineer Degree",
+        "paragraphs": [
+          {
+            "type": "ul",
+            "elements": [
+              "Object Oriented Programming (Java)",
+              "Database Management (SQL)"
+            ]
+          }
+        ]
+      }
+    ],
+    "cvurl": "https://drive.google.com/a/pabloibanez.com/file/d/0B3COmw5fMR0hUC1pWG1PUmt2a3c/view?usp=sharing"
+  },
+  "clients": [
+    {
+      "name": "Allianz",
+      "imgSrc": "allianz.png"
+    },
+    {
+      "name": "Deutsche Bank",
+      "imgSrc": "deutsche-bank.png"
+    },
+    {
+      "name": "Ibercaja Banco",
+      "imgSrc": "ibercaja.png"
+    },
+    {
+      "name": "Iberdrola / Scottish Power",
+      "imgSrc": "iberdrola.png"
+    },
+    {
+      "name": "Ministry of Justice UK",
+      "imgSrc": "moj.png"
+    },
+    {
+      "name": "Sainsbury's",
+      "imgSrc": "sainsburys.png"
+    },
+    {
+      "name": "Savills",
+      "imgSrc": "savills.png"
+    },
+    {
+      "name": "Telefonica",
+      "imgSrc": "telefonica.png"
+    }
+  ],
+  "contact": {
+    "location": "Royal Docklands, London, UK",
+    "phone": "+44 (0) 7931415156",
+    "email": "me@pabloibanez.com",
+    "website": "http://www.pabloibanez.com",
+    "map": {
+      "center": {
+        "lat": 51.50933,
+        "lng": 0.0163313
+      },
+      "zoom": 14
+    },
+    "form": [
+      {
+        "name": "name",
+        "element": "input",
+        "type": "text",
+        "placeholder": "NAME"
+      },
+      {
+        "name": "company",
+        "element": "input",
+        "type": "text",
+        "placeholder": "COMPANY"
+      },
+      {
+        "name": "email",
+        "element": "input",
+        "type": "email",
+        "placeholder": "EMAIL"
+      },
+      {
+        "name": "message",
+        "element": "textarea",
+        "rows": 7,
+        "placeholder": "MESSAGE"
+      }
+    ]
+  }
+}

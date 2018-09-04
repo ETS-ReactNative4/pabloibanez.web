@@ -1,0 +1,44 @@
+[
+  {
+    "name": "intro",
+    "navlink": "HOME",
+    "displayOrder": 1,
+    "navBarOrder": 1
+  },
+  {
+    "name": "profile",
+    "navlink": "PROFILE",
+    "displayOrder": 2,
+    "navBarOrder": 2
+  },
+  {
+    "name": "hobbies",
+    "navlink": "",
+    "displayOrder": 0,
+    "navBarOrder": 0
+  },
+  {
+    "name": "services",
+    "navlink": "SKILLS",
+    "displayOrder": 3,
+    "navBarOrder": 3
+  },
+  {
+    "name": "resume",
+    "navlink": "RESUME",
+    "displayOrder": 4,
+    "navBarOrder": 4
+  },
+  {
+    "name": "portfolio",
+    "navlink": "PORTFOLIO",
+    "displayOrder": 5,
+    "navBarOrder": 5
+  },
+  {
+    "name": "contact",
+    "navlink": "CONTACT",
+    "displayOrder": 6,
+    "navBarOrder": 6
+  }
+]

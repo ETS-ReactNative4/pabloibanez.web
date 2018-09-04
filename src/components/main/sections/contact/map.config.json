@@ -1,0 +1,24 @@
+{
+  "scrollwheel": false,
+  "draggable": false,
+  "disableDefaultUI": true,
+  "styles": [
+    {
+      "featureType": "poi",
+      "stylers": [
+        {
+          "visibility": "off"
+        }
+      ]
+    },
+    {
+      "featureType": "road",
+      "elementType": "labels",
+      "stylers": [
+        {
+          "visibility": "off"
+        }
+      ]
+    }
+  ]
+}

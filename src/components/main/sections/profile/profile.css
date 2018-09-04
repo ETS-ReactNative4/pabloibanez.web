@@ -1,0 +1,49 @@
+.skills-group {
+  margin-bottom: 20px;
+}
+
+.skills-group h4 {
+  font-size: 18px;
+}
+
+.additional-skills-header {
+  margin-top: 4px;
+  margin-bottom: 30px;
+}
+
+.additional-profile-header {
+  margin-top: 4px;
+  margin-bottom: 20px;
+}
+
+.additional-header h3 {
+  display: inline;
+}
+
+.view-all-skills {
+  float: right;
+}
+
+.aditional-skills {
+  opacity: 0;
+  height: 0;
+}
+
+.aditional-skills.visible {
+  opacity: 1;
+  height: 100%;
+  transition: opacity 1.5s;
+  -webkit-transition: opacity 1.5s;
+}
+
+.professional-profile {
+  opacity: 0;
+  height: 0;
+}
+
+.professional-profile.visible {
+  opacity: 1;
+  height: 100%;
+  transition: opacity 1.5s;
+  -webkit-transition: opacity 1.5s;
+}

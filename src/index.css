@@ -1,0 +1,9 @@
+@import "./assets/css/style.css";
+@import "./assets/css/not-minify.css";
+@import "./assets/css/icomoon.css";
+@import "./assets/css/slider.css";
+@import "./assets/css/alerts.css";
+@import "./components/components.css";
+@import "~animate.css/animate.min.css";
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";

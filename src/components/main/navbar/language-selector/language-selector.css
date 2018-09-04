@@ -1,0 +1,38 @@
+.language-selector>.navbar-nav {
+  margin-left: 15px;
+}
+
+.language-selector>.navbar-nav>li>a>i {
+  margin-left: 8px;
+}
+
+.language-selector>.dropdown {
+  position: fixed;
+  opacity: 0.7;
+  padding: 0 30px;
+  top: 55px;
+  right: 180px;
+  background-color: #000;
+  border-radius: 4px;
+  list-style-type: none;
+}
+
+.language-selector>.dropdown.hidden {
+  display: none;
+}
+
+.language-selector>.dropdown>li {
+  padding: 8px 0;
+}
+
+.language-selector>.dropdown>li>a {
+  color: #FFF;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.language-selector>.dropdown>li:hover>a {
+  color: #EF4836;
+}

@@ -1,0 +1,9 @@
+.swal2-modal {}
+
+.swal2-popup .swal2-title {
+  font-size: 22px !important;
+}
+
+.swal2-popup .swal2-content {
+  font-size: 14px !important;
+}
