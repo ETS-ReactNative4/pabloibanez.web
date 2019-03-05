@@ -3,7 +3,7 @@
         "HOME": "Inicio",
         "PROFILE": "Perfil",
         "SKILLS": "Habilidades",
-        "RESUME": "Experiencia",
+        "RESUME": "Currículum",
         "PORTFOLIO": "Portfolio",
         "CONTACT": "Contacto",
         "CHANGE_LANGUAGE": "Cambiar idioma (English)"
@@ -54,11 +54,11 @@
         }
     },
     "RESUME": {
-        "TITLE": "Resume",
-        "SUBTITLE": "My education and experience.",
-        "EXPERIENCE": "Experience",
-        "EDUCATION": "Education",
-        "DOWNLOADCV": "Download CV"
+        "TITLE": "Currículum",
+        "SUBTITLE": "Mi educación y experiencia.",
+        "EXPERIENCE": "Experiencia",
+        "EDUCATION": "Educación",
+        "REQUESTCV": "Solicitar CV"
     },
     "CLIENTS": {
         "EXPERIENCEWITH": "Experience with"

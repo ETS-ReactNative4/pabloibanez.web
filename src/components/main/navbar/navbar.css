@@ -1,0 +1,13 @@
+.navbar .collapse {
+  display: block;
+  overflow: hidden;
+  max-height: 0;
+  -webkit-transition: max-height 0.20s ease-in;
+  -moz-transition: max-height 0.20s ease-in;
+  -o-transition: max-height 0.20s ease-in;
+  transition: max-height 0.20s ease-in;
+}
+
+.navbar .collapse.in {
+  max-height: 500px;
+}

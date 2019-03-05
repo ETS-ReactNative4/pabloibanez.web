@@ -178,9 +178,21 @@
   ],
   "references": [
     {
+      "name": "Fabio Tisci",
+      "role": "Lead Frontend Developer at Ministry of Justice in 2018",
+      "imgSrc": "reference_2.jpg",
+      "text": "Pablo is a great software developer. I had the chance to work wit him for over two years and he has always provided good solutions for each challenge. He is pretty good in analysing any problem and trying to find the best solution for it. Besides being very motivated and having a great attitude his technical skills are really strong and he is always trying to stay updated on the latest technologies. Also, he is very easy-going person so it has been a pleasure to work with him."
+    },
+    {
+      "name": "Greg Kedzierski",
+      "role": "Lead Frontend Developer at Aimia in 2017",
+      "imgSrc": "reference_1.jpg",
+      "text": "I had a pleasure of working with Pablo, building analytics platform at Aimia. He was a very quick learner and fit the team quickly. Pablo is very dependable, skilled and experienced. I'd wholeheartedly recommend him for any web project."
+    },
+    {
       "name": "Abdelrahman Hassan",
       "role": "Solution Architect & Lead Developer at Savills in 2016",
-      "imgSrc": "reference_1.jpg",
+      "imgSrc": "reference_4.jpg",
       "text": "Pablo is a very passionate , self-motivated developer. He is continuously researching and playing with new technologies to ensure that he is mastering technologies needed by the business not only for the moment but for two steps ahead as well ! He is a very productive developer and very good in coming up with agile and efficient solutions to technical challenges and problems."
     },
     {

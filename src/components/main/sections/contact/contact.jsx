@@ -12,7 +12,7 @@ class Contact extends React.Component {
     });
   }
 
-  sendEmail(e) {
+  sendEmail() {
     swal({
       title: 'Mailing disabled',
       text: 'Mailing from the site is temporaly disabled. Please contact me on me@pabloibanez.com.',

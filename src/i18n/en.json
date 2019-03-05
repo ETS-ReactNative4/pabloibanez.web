@@ -58,7 +58,10 @@
     "SUBTITLE": "My education and experience.",
     "EXPERIENCE": "Experience",
     "EDUCATION": "Education",
-    "DOWNLOADCV": "Download CV"
+    "REQUESTCV_BUTTON": "Request CV",
+    "REQUESTCV_TITLE": "My CV",
+    "REQUESTCV_TEXT": "If you desire to get my up-to-date CV please contact me on me@pabloibanez.com",
+    "REQUESTCV_CLOSE": "Close"
   },
   "CLIENTS": {
     "EXPERIENCEWITH": "Experience with"

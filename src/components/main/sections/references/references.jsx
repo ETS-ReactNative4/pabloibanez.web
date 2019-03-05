@@ -14,7 +14,7 @@ const references = (props) => {
             {props.references.map((r, i) => <div key={i}>
               <p className="reference-text">{r.text}</p>
               <div className="reference-contact">
-                <img className="imageFrame" alt={r.name} src={require(`../../../../assets/images/references/${r.imgSrc}`)} />
+                <img alt={r.name} className="imageFrame" src={`../assets/images/references/${r.imgSrc}`} />
                 <div>
                   <div>
                     {r.name}
