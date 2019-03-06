@@ -75,7 +75,7 @@ class navbar extends Component {
             <span className="icon-bar"></span>
             <span className="icon-bar"></span>
           </button>
-          <a className="navbar-brand" href="/">Pablo Ibañez</a>
+          <a className="navbar-brand" href="/">Pablo Ibanez</a>
         </div>
         <div className={`collapse navbar-collapse ${this.state.showNavBar ? 'in' : null}`}>
           {this.state.size !== 'xs' ? <LanguageSelector mobileMode={false} changeLanguage={(lang) => this.props.onLanguageChange(lang)} /> : null}

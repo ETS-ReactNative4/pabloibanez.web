@@ -46,12 +46,14 @@ class LanguageSelector extends React.Component {
         <div className="language-selector"
           onMouseOver={() => this.showDropdown(true)}
           onMouseOut={() => this.showDropdown(false)}>
-          <ul className="nav navbar-nav navbar-right" ><li>
-            <a>{this.state.language}<i className="fa fa-angle-down" /></a>
-          </li></ul>
-          <ul className={`dropdown ${this.state.showDropdown ? '' : 'hidden'}`}>
-            <li><a onClick={() => this.changeLanguage('en')}>English</a></li>
-            <li><a onClick={() => this.changeLanguage('es')}>Español</a></li>
+          <ul className="nav navbar-nav navbar-right" >
+            <li>
+              <a>{this.state.language}<i className="fa fa-angle-down" /></a>
+              <ul className={`dropdown ${this.state.showDropdown ? '' : 'hidden'}`}>
+                <li><a onClick={() => this.changeLanguage('en')}>English</a></li>
+                <li><a onClick={() => this.changeLanguage('es')}>Español</a></li>
+              </ul>
+            </li>
           </ul>
         </div>}
     </React.Fragment>

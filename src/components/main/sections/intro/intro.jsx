@@ -58,31 +58,34 @@ class Intro extends Component {
       </div>
     });
 
-    return (<section id="intro" className="section">
-      <div className="container">
-        <div className="row">
-          <div className="col-md-12">
-            <div className="hello">
-              <FormattedMessage id="INTRO.HELLO">{msg => {
-                return <Typist
-                  stdTypingDelay={15}
-                  startDelay={500}
-                  onTypingDone={() => this.showNextRole()}>
-                  <h1>{msg}</h1>
-                </Typist>
-              }}</FormattedMessage>
-              <div className="role">{this.role}</div>
-            </div>
-            <a onClick={() => this.props.goToProfile()}>
-              <div className="mouse-icon">
-                <div className="wheel"></div>
+    return (
+      <section id="intro" className="section" style={{ height: this.state.height }}>
+        <div className="center-div__outer">
+          <div className="center-div__middle">
+            <div className="center-div__inner">
+              <div className="hello">
+                <FormattedMessage id="INTRO.HELLO">{msg => {
+                  return <Typist
+                    stdTypingDelay={15}
+                    startDelay={500}
+                    onTypingDone={() => this.showNextRole()}>
+                    <h1>{msg}</h1>
+                  </Typist>
+                }}</FormattedMessage>
+                <div className="role">{this.role}</div>
               </div>
-            </a>
+              <a onClick={() => this.props.goToProfile()}>
+                <div className="mouse-icon">
+                  <div className="wheel"></div>
+                </div>
+              </a>
+            </div>
           </div>
         </div>
-      </div>
-      {citiesHtml}
-    </section>)
+        {/* <div className="overlay"></div> */}
+        {citiesHtml}
+      </section>
+    )
   }
 }
 

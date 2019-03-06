@@ -585,7 +585,8 @@ h3>.fa {
 /* ---------------------------------------------- */
 
 #intro {
-  padding: 260px 0 160px 0;
+  /* padding: 260px 0 160px 0; */
+  padding: 0;
   text-align: center;
   color: #FFF;
 }
@@ -599,8 +600,42 @@ h3>.fa {
   color: #FFF;
 }
 
+.center-div__outer {
+  display: table;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.center-div__middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.center-div__inner {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 15px;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: black;
+  opacity: 0.3;
+}
+
 .hello {
   margin: 0 0 100px;
+}
+
+.city {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
 
 /* ---------------------------------------------- /*
@@ -934,7 +969,7 @@ h3>.fa {
 
 @media (max-width: 767px) {
   #intro {
-    padding: 140px 0 160px 0;
+    /* padding: 140px 0 160px 0; */
   }
   .section,
   .callout,

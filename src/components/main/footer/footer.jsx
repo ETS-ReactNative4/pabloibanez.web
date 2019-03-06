@@ -9,7 +9,7 @@ const footer = () => {
     <div className="container">
       <div className="row">
         <div className="col-md-12">
-          <p className="copy"><FormattedMessage id="FOOTER.MAIN" /> Pablo Ibañez - {year}</p>
+          <p className="copy"><FormattedMessage id="FOOTER.MAIN" /> Pablo Ibanez - {year}</p>
         </div>
       </div>
     </div>

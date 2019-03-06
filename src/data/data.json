@@ -6,11 +6,6 @@
   ],
   "places": [
     {
-      "id": "vasteras",
-      "name": "Västerås, Sweden",
-      "period": "2008 - 2010"
-    },
-    {
       "id": "london",
       "name": "London, UK",
       "period": "2013 - now"
@@ -19,6 +14,11 @@
       "id": "madrid",
       "name": "Madrid, Spain",
       "period": "2011 - 2013"
+    },
+    {
+      "id": "vasteras",
+      "name": "Västerås, Sweden",
+      "period": "2008 - 2010"
     },
     {
       "id": "zaragoza",
