@@ -647,11 +647,20 @@ h3>.fa {
   padding: 20px 0;
 }
 
+.contact-details>div {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.profile-item {
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+}
+
 .profile-item i {
-  display: block;
   line-height: 42px;
   font-size: 32px;
-  color: #222;
 }
 
 .widget-social {
@@ -809,6 +818,11 @@ h3>.fa {
 
 #contact .form-control {
   border: 0;
+}
+
+#contact .form-control:active,
+#contact .form-control:focus {
+  border: 1px solid #EF4836;
 }
 
 .ajax-response {

@@ -5,46 +5,35 @@ import sections from '../../data/sections';
 import { trunkArray } from '../../util';
 import Footer from './footer/footer';
 import NavBar from './navbar/navbar';
-import { Clients, Contact, Hobbies, Intro, Portfolio, Profile, ProfileContact, References, Resume, Services } from './sections';
+import { Clients, Contact, Hobbies, Intro, Portfolio, Profile, References, Resume, Services } from './sections';
+
+const Element = Scroll.Element;
+const scroller = Scroll.scroller;
 
 class Main extends React.Component {
 
   constructor(props) {
     super(props);
     this.state = {
-      activeSection: ''
+      activeSection: '',
+      sections: sections.filter(s => s.displayOrder > 0).sort((a, b) => a.displayOrder - b.displayOrder)
     }
-    this.sections = sections.filter(s => s.displayOrder > 0)
-      .sort((a, b) => a.displayOrder - b.displayOrder)
-      .map(s => { return { name: s.name, ref: React.createRef() } });
   }
 
   componentDidMount() {
-    const updatedSections = this.sections.map(s => {
-      return {
-        ...s,
-        offsetTop: s.ref.current.offsetTop,
-        offsetBottom: s.ref.current.offsetTop + s.ref.current.offsetHeight
-      };
-    });
-    this.sections = updatedSections;
     new WOW.WOW({
       live: false,
       mobile: false
     }).init();
   }
 
-  getSectionRef(name) {
-    return this.sections.find(s => s.name === name).ref;
-  }
-
   goToSection(section) {
-    Scroll.animateScroll.scrollTo(this.sections.find(s => s.name === section).offsetTop);
-  }
-
-  updateActiveSection(offset) {
-    const newActiveSession = this.sections.find(s => offset >= s.offsetTop && offset < s.offsetBottom);
-    if (!newActiveSession) { return; }
+    scroller.scrollTo(section, {
+      duration: 1000,
+      delay: 100,
+      smooth: true,
+      offset: 0,
+    });
   }
 
   render() {
@@ -52,55 +41,44 @@ class Main extends React.Component {
       <NavBar
         goToSection={(section) => { this.goToSection(section) }}
         onLanguageChange={(lang) => this.props.onLanguageChange(lang)}
-        sections={this.sections}
+        sections={this.state.sections}
         activeSection={this.state.activeSection}
       />
-      <div ref={this.getSectionRef('intro')}>
+      <Element name="intro">
         <Intro
           goToProfile={() => { this.goToSection('profile') }}
           roles={this.props.data.roles}
           places={this.props.data.places}
         />
-      </div>
-      <div>
-        <ProfileContact
-          data={this.props.data.profileContact}
-        />
-      </div>
-      <div ref={this.getSectionRef('profile')}>
+      </Element>
+      <Element name="profile">
         <Profile
           profile={this.props.data.profile}
           roles={this.props.data.roles}
         />
-      </div>
-      <div>
         <Hobbies
           hobbies={this.props.data.profile.hobbies}
         />
-      </div>
-      <div ref={this.getSectionRef('services')}>
+      </Element>
+      <Element name="services">
         <Services
           services={trunkArray(this.props.data.services, 3)} />
-      </div>
-      <div>
         <References
           references={this.props.data.references} />
-      </div>
-      <div ref={this.getSectionRef('resume')}>
+      </Element>
+      <Element name="resume">
         <Resume
           resume={this.props.data.resume} />
-      </div>
-      <div>
         <Clients
           clients={this.props.data.clients} />
-      </div>
-      <div ref={this.getSectionRef('portfolio')}>
+      </Element>
+      <Element name="portfolio">
         <Portfolio />
-      </div>
-      <div ref={this.getSectionRef('contact')}>
+      </Element>
+      <Element name="contact">
         <Contact
           contact={this.props.data.contact} />
-      </div>
+      </Element>
       <Footer />
     </div>
   }

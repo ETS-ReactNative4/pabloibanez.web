@@ -1,4 +1,5 @@
 import React from 'react';
+import { FormattedMessage } from 'react-intl';
 import Slider from "react-slick";
 import sliderSettings from '../../../../util/sliderSettings';
 
@@ -7,7 +8,7 @@ const references = (props) => {
     <div className="container">
       <div className="row">
         <div className="col-md-3 wow bounceInLeft">
-          <h3>References</h3>
+          <h3><FormattedMessage id="REFERENCES.TITLE" /></h3>
         </div>
         <div className="col-md-9 wow bounceInRight">
           <Slider {...sliderSettings}>

@@ -2,7 +2,7 @@
   "NAVBAR": {
     "HOME": "Home",
     "PROFILE": "Profile",
-    "SKILLS": "Skills",
+    "SERVICES": "Services",
     "RESUME": "Resume",
     "PORTFOLIO": "Portfolio",
     "CONTACT": "Contact",
@@ -53,6 +53,9 @@
       "TEXT": "Besides achieving the requirements from the employers/clients I also like to suggest new solutions to improve the quality of the product. I'm not a conformist developer."
     }
   },
+  "REFERENCES": {
+    "TITLE": "What people say"
+  },
   "RESUME": {
     "TITLE": "Resume",
     "SUBTITLE": "My education and experience.",
@@ -71,7 +74,7 @@
     "SUBTITLE": "Some of the public projects I´ve worked on."
   },
   "CONTACT": {
-    "TITLE": "Contact Me",
+    "TITLE": "Get in touch",
     "SUBTITLE": "Drop me a line or give me a ring. I´d love to hear you.",
     "FORM": {
       "NAME": "Name",
