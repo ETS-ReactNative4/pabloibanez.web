@@ -140,34 +140,34 @@
   },
   "services": [
     {
-      "name": "frontend",
+      "name": "javascript",
       "icon": "icon-js",
-      "label": "SERVICES.FRONTEND.LABEL",
-      "text": "SERVICES.FRONTEND.TEXT"
+      "label": "SERVICES.JAVASCRIPT.LABEL",
+      "text": "SERVICES.JAVASCRIPT.TEXT"
     },
     {
-      "name": ".net",
-      "icon": "icon-visual-studio",
-      "label": "SERVICES.DOTNET.LABEL",
-      "text": "SERVICES.DOTNET.TEXT"
+      "name": "backend",
+      "icon": "icon-pi-server",
+      "label": "SERVICES.BACKEND.LABEL",
+      "text": "SERVICES.BACKEND.TEXT"
     },
     {
-      "name": "agile",
-      "icon": "icon-team",
-      "label": "SERVICES.AGILE.LABEL",
-      "text": "SERVICES.AGILE.TEXT"
+      "name": "architecture",
+      "icon": "icon-pi-architecture",
+      "label": "SERVICES.ARCHITECTURE.LABEL",
+      "text": "SERVICES.ARCHITECTURE.TEXT"
     },
     {
-      "name": "geolocation",
-      "icon": "icon-maps",
-      "label": "SERVICES.GEOLOCATION.LABEL",
-      "text": "SERVICES.GEOLOCATION.TEXT"
+      "name": "continuous_integration",
+      "icon": "icon-pi-continuous",
+      "label": "SERVICES.CONTINUOUS_INTEGRATION.LABEL",
+      "text": "SERVICES.CONTINUOUS_INTEGRATION.TEXT"
     },
     {
-      "name": "responsive",
+      "name": "design",
       "icon": "icon-responsive_design",
-      "label": "SERVICES.RESPONSIVE.LABEL",
-      "text": "SERVICES.RESPONSIVE.TEXT"
+      "label": "SERVICES.DESIGN.LABEL",
+      "text": "SERVICES.DESIGN.TEXT"
     },
     {
       "name": "ideas",
@@ -217,50 +217,123 @@
   "resume": {
     "experience": [
       {
-        "title": "Ministry of Justice UK",
-        "period": "2016 - Now",
+        "title": "Beyond",
+        "period": "Dec 2018 - Present",
         "location": "London, UK",
         "role": "Front End Web Consultant",
-        "paragraphs": [
-          {
-            "type": "p",
-            "text": "Working in one of the most challenging UK Government project - CJS Common Platform Programme. It is a single system providing access to all material necessary to deal with cases efficiently and effectively in Ministry of Justice. The project aims using latest agile methodologies to digitalise part of the UK criminal justice system to keep judges, defendants, prosecutors and common access to online version of the cases."
-          },
-          {
-            "type": "a",
-            "url": "https://insidehmcts.blog.gov.uk/2016/06/30/introduction-to-common-platform-programme/"
-          },
-          {
-            "type": "p",
-            "text": "This platform is mainly developed with Angular 1.5 (migrating to Angular 2 now), Typescript, SASS. It’s critically important to be properly tested (Unit test and E2E test). Other technologies used in the role: npm, Bower, Gulp, Git, Gerrit, RAML.. All based in an asynchronous CQRS architecture."
-          }
+        "techStack": [
+          "React",
+          "Redux",
+          "Javascript",
+          "SASS"
+        ],
+        "responsabilities": [
+          "Frontend architecture design of greenfield project",
+          "Meeting very tight client deadlines"
+        ],
+        "learnt": "To get rid of certain development elements to speed up results.",
+        "achievements": [
+          "Meeting client expectations",
+          "Developing a more scalable and maintainable application"
+        ]
+      },
+      {
+        "title": "Ministry of Justice UK",
+        "period": "Aug 2017 - Dec 2018",
+        "location": "London, UK",
+        "role": "Front End Web Consultant",
+        "techStack": [
+          "React",
+          "Redux",
+          "Angular",
+          "NgRx",
+          "Microservices"
+        ],
+        "responsabilities": [
+          "Interacting with product owners to define the best technical solutions",
+          "Front end development in one of the teams of the program",
+          "Doing testing meticulously over all development (Unit testing and E2E testing) ",
+          "Developing reusable code/components to use across the entire program"
+        ],
+        "learnt": "Ways of working in a big project need to be different from a small/medium one.",
+        "achievements": [
+          "Digitalising the Criminal Justice and Magistrates courts Systems",
+          "Adapting the architecture to newer technologies along the time by keeping maintainability as a key"
+        ]
+      },
+      {
+        "title": "Aimia Inc",
+        "period": "Mar 2017 - Aug 2017",
+        "location": "London, UK",
+        "role": "Front End Web Consultant",
+        "techStack": [
+          "Angular",
+          "Typescript",
+          "D3.js"
+        ],
+        "responsabilities": [
+          "Developing a Big Data based e-commerce application for business customers (Sainsburys and ICA)",
+          "Maintaining a process of Front-End code quality within the team (coding standards, design patterns, EsLint, Karma unit tests, TDD)"
+        ],
+        "learnt": "How important is keeping coding standards, specially in a fast-moving team.",
+        "achievements": [
+          "Developing a very atractive and user friendly application",
+          "Improving coding quality by following more restrictive reviews and lint rules",
+          "Managing to do complex graphs with D3.js in such little time"
+        ]
+      },
+      {
+        "title": "Ministry of Justice UK",
+        "period": "Apr 2016 - Mar 2017",
+        "location": "London, UK",
+        "role": "Front End Web Consultant",
+        "techStack": [
+          "AngularJS",
+          "Typescript",
+          "Microservices"
+        ],
+        "responsabilities": [
+          "Interacting with product owners to define the best technical solutions",
+          "Front end development in one of the teams of the program",
+          "Doing testing meticulously over all development (Unit testing and E2E testing) ",
+          "Developing reusable code/components to use across the entire program"
+        ],
+        "learnt": "Ways of working in a big project need to be different from a small/medium one.",
+        "achievements": [
+          "Digitalising the Criminal Justice and Magistrates courts Systems",
+          "Adapting the architecture to newer technologies along the time by keeping maintainability as a key"
         ]
       },
       {
         "title": "Savills",
-        "period": "2013 - 2016",
+        "period": "Jul 2013 - Mar 2016",
         "location": "London, UK",
         "role": "Full Stack Web Developer",
-        "paragraphs": [
-          {
-            "type": "p",
-            "text": "Developing Global Property Search Application for Savills. This application is consumed from all local Savills sites across the world (more than 50). I have worked in two different stages. The first one consisted on improving the existing product, the second was going a step further: developing a new version of the product taking advantage of some of the new technologies in the market."
-          },
-          {
-            "type": "ul",
-            "elements": [
-              "Implementation of Single-page architecture (AngularJS).",
-              "Implementation of Responsive design (Bootstrap & Sass).",
-              "Implementation of custom user experience (Authentication).",
-              "Implementation of API architecture.",
-              "Support to multiple languages and cultures."
-            ]
-          }
+        "techStack": [
+          "AngularJS",
+          "ASP.Net MVC",
+          "C#",
+          "Entity Framework",
+          "SASS"
+        ],
+        "responsabilities": [
+          "Development of the property search web app of one of the biggest British real-estate agencies across the world",
+          "Giving technical advice to business in order to get the best result as possible",
+          "Meeting business requirements and taking them to production as shortest as possible",
+          "Supporting requirements from international delegations (languages, cultures) "
+        ],
+        "learnt": "Agile Methodology.",
+        "achievements": [
+          "Migrating the old MVC architecture to a more modern single-page one.",
+          "Impelementing new API architecture to be consumed from new SP site",
+          "Making the site to be full responsive",
+          "Implementing custom user experience by developing new account section",
+          "Supporting 23 languages and showing custom site for more than 50 countries"
         ]
       },
       {
         "title": "Telefonica",
-        "period": "2011 - 2013",
+        "period": "May 2011 - Jun 2013",
         "location": "Madrid, Spain",
         "role": "Web Developer",
         "paragraphs": [
@@ -282,7 +355,7 @@
       },
       {
         "title": "GFT Group",
-        "period": "2010 - 2011",
+        "period": "Jun 2010 - May 2011",
         "location": "Zaragoza, Spain",
         "role": "Junior Developer",
         "paragraphs": [
@@ -303,7 +376,7 @@
       },
       {
         "title": "Aragon Parliament",
-        "period": "2007 - 2008 ",
+        "period": "Aug 2007 - Aug 2008",
         "location": "Zaragoza, Spain",
         "role": "Web Developer (Internship)",
         "paragraphs": [
@@ -317,7 +390,7 @@
     "education": [
       {
         "title": "Mälardalens högskola",
-        "period": "2008 - 2010",
+        "period": "Aug 2008 - Jun 2010",
         "location": "Västerås, Sweden",
         "role": "Master's programme in Software Engineering",
         "paragraphs": [
@@ -334,7 +407,7 @@
       },
       {
         "title": "Zaragoza University",
-        "period": "2005 - 2008",
+        "period": "Sep 2005 -  Jun 2008",
         "location": "Zaragoza, Spain",
         "role": "Computer Scientist and Engineer Degree",
         "paragraphs": [

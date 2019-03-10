@@ -25,6 +25,10 @@
     "BACKEND": "Backend",
     "OTHER": "Otro"
   },
+  "HOBBIES": {
+    "TITLE": "Mis intereses",
+    "BESIDES_DEVELOPING": "además de desarrollar..."
+  },
   "SERVICES": {
     "WHAT_CAN_I_DO": "Que puedo hacer",
     "MY_SERVICES": "Mis servicios.",

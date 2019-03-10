@@ -1,13 +1,15 @@
 import React from 'react';
+import { FormattedMessage } from 'react-intl';
 
 const hobbies = (props) => {
-  return <section id="stats" className="callout">
+  return <section id="stats" className="callout callout-dark callout-hobbies">
+    <div className="page-triangle" />
     <div className="container">
       <div className="row">
         <div className="col-md-3 col-sm-12 wow bounceInLeft">
-          <h3>My hobbies</h3>
+          <h3><FormattedMessage id="HOBBIES.TITLE" /></h3>
           <br />
-          <h4>( besides developing... <i className="fa fa-smile-o "></i> )</h4>
+          <h4>( <FormattedMessage id="HOBBIES.BESIDES_DEVELOPING" /> <i className="fa fa-smile-o "></i> )</h4>
         </div>
         {props.hobbies.map(h => {
           return <div key={h.name} className={['col-md-3 col-sm-4 wow', h.animation].join(' ')}>

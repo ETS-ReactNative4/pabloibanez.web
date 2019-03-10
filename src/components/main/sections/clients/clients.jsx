@@ -32,7 +32,8 @@ const clients = (props) => {
       }
     ]
   };
-  return <section id="clients" className="callout">
+  return <section id="clients" className="callout callout-dark callout-clients">
+    <div className="page-triangle" />
     <div className="container">
       <div className="row">
         <div className="col-md-3 wow bounceInLeft">

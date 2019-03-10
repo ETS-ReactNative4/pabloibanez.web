@@ -25,27 +25,31 @@
     "BACKEND": "Backend",
     "OTHER": "Other"
   },
+  "HOBBIES": {
+    "TITLE": "What I like",
+    "BESIDES_DEVELOPING": "besides developing..."
+  },
   "SERVICES": {
     "WHAT_CAN_I_DO": "What I can do",
     "MY_SERVICES": "My Services.",
-    "FRONTEND": {
-      "LABEL": "Front end",
+    "JAVASCRIPT": {
+      "LABEL": "Javascript",
       "TEXT": "Very strong experience on AngularJS and getting more and more experience on Angular 2 &amp; TypeScript. Besides that I also deal everyday with some of the most popular Javascript libraries and frameworks."
     },
-    "DOTNET": {
-      "LABEL": ".NET",
+    "BACKEND": {
+      "LABEL": "Back end",
       "TEXT": "Extensive knowledge and experience on most of the .NET technologies such as C#, ASP.Net MVC, ASP.Net Web API or Entity Framework."
     },
-    "AGILE": {
-      "LABEL": "Agile / Teamwork",
+    "CONTINUOUS_INTEGRATION": {
+      "LABEL": "Continuous Integration (CI)",
       "TEXT": "I believe team working is a key to a successful delivery. I have extensive experience working in Agile environments."
     },
-    "GEOLOCATION": {
-      "LABEL": "Geolocation",
+    "ARCHITECTURE": {
+      "LABEL": "Sofware Architecture",
       "TEXT": "Applying geolocation to your business will be a very useful feature. Why don't we do it? I have very good knowledge of Google Maps API and all its libraries (places, autocomplete, drawing, ...)."
     },
-    "RESPONSIVE": {
-      "LABEL": "Responsive design",
+    "DESIGN": {
+      "LABEL": "Web design & templating",
       "TEXT": "Showing all your content in a proper way to your users is a must nowadays. I can help you with this by using Bootstrap, HTML5, SASS and new design technologies coming onto the market every day."
     },
     "IDEAS": {
@@ -71,7 +75,7 @@
   },
   "PORTFOLIO": {
     "TITLE": "Portfolio",
-    "SUBTITLE": "Some of the public projects I´ve worked on."
+    "SUBTITLE": "My personal repositories."
   },
   "CONTACT": {
     "TITLE": "Get in touch",

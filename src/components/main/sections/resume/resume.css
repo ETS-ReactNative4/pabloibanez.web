@@ -1,0 +1,32 @@
+.resume-element {
+  margin-bottom: 20px;
+}
+
+.resume-element>h5 {
+  font-style: italic;
+}
+
+.resume-element>div {
+  padding-left: 20px;
+}
+
+.resume-element i {
+  margin-right: 8px;
+  font-size: 12px;
+  color: #4d4d4d;
+}
+
+.resume-element ul {
+  padding-inline-start: 30px;
+  padding-left: 38px;
+  list-style-type: square;
+}
+
+.resume-element ul li {
+  padding-bottom: 5px;
+  text-align: left;
+}
+
+.resume-role {
+  font-weight: bold;
+}
