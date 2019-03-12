@@ -23,7 +23,9 @@
     "SKILLSET": "Main tech stack",
     "FRONTEND": "Frontend",
     "BACKEND": "Backend",
-    "OTHER": "Other"
+    "OTHER": "Other",
+    "VIEW_PROFILE": "View professional profile",
+    "VIEW_FULL_SKILLSET": "View full tech stack"
   },
   "HOBBIES": {
     "TITLE": "What I like",

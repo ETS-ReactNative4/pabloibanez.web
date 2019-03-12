@@ -8,7 +8,7 @@ class Intro extends Component {
     super(props);
     this.state = {
       height: 0,
-      role: 0,
+      role: -1,
       place: 0
     };
     this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
@@ -45,6 +45,7 @@ class Intro extends Component {
   showNextPlace() {
     const newPlaceIndex = this.state.place >= this.props.places.length - 1 ? 0 : this.state.place + 1;
     this.setState({ place: newPlaceIndex });
+    this.props.onStyleChange(this.props.places[newPlaceIndex].style);
   }
 
   render() {
@@ -82,7 +83,6 @@ class Intro extends Component {
             </div>
           </div>
         </div>
-        {/* <div className="overlay"></div> */}
         {citiesHtml}
       </section>
     )

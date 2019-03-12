@@ -1,0 +1,20 @@
+[
+  {
+    "name": "email",
+    "icon": "icon-envelope-o",
+    "animation": "bounceInLeft",
+    "text": "me@pabloibanez.com"
+  },
+  {
+    "name": "phone",
+    "icon": "icon-phone",
+    "animation": "bounceInUp",
+    "text": "+44 (0) 7931415156"
+  },
+  {
+    "name": "location",
+    "icon": "icon-marker",
+    "animation": "bounceInRight",
+    "text": "Royal Docklands, London, UK"
+  }
+]

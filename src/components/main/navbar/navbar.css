@@ -11,3 +11,13 @@
 .navbar .collapse.in {
   max-height: 500px;
 }
+
+.navbar.dark:not(.navbar-color),
+.navbar.dark:not(.navbar-color) .navbar-brand,
+.navbar.dark:not(.navbar-color) .navbar-nav>li>a {
+  color: #222;
+}
+
+.navbar.dark:not(.navbar-color) .navbar-nav>li>a:hover {
+  color: #ef4836;
+}

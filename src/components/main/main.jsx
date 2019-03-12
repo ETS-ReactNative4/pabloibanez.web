@@ -16,8 +16,11 @@ class Main extends React.Component {
     super(props);
     this.state = {
       activeSection: '',
-      sections: sections.filter(s => s.displayOrder > 0).sort((a, b) => a.displayOrder - b.displayOrder)
+      sections: sections.filter(s => s.displayOrder > 0).sort((a, b) => a.displayOrder - b.displayOrder),
+      style: 'light'
     }
+
+    this.handleStyleChange = this.handleStyleChange.bind(this);
   }
 
   componentDidMount() {
@@ -36,9 +39,14 @@ class Main extends React.Component {
     });
   }
 
+  handleStyleChange(style) {
+    this.setState({ style });
+  }
+
   render() {
     return <div className="main">
       <NavBar
+        style={this.state.style}
         goToSection={(section) => { this.goToSection(section) }}
         onLanguageChange={(lang) => this.props.onLanguageChange(lang)}
         sections={this.state.sections}
@@ -49,12 +57,14 @@ class Main extends React.Component {
           goToProfile={() => { this.goToSection('profile') }}
           roles={this.props.data.roles}
           places={this.props.data.places}
+          onStyleChange={this.handleStyleChange}
         />
       </Element>
       <Element name="profile">
         <Profile
           profile={this.props.data.profile}
           roles={this.props.data.roles}
+          techs={this.props.data.techs}
         />
         <Hobbies
           hobbies={this.props.data.profile.hobbies}

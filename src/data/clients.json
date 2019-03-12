@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Allianz",
+    "imgSrc": "allianz.png"
+  },
+  {
+    "name": "Deutsche Bank",
+    "imgSrc": "deutsche-bank.png"
+  },
+  {
+    "name": "Ibercaja Banco",
+    "imgSrc": "ibercaja.png"
+  },
+  {
+    "name": "Iberdrola / Scottish Power",
+    "imgSrc": "iberdrola.png"
+  },
+  {
+    "name": "Ministry of Justice UK",
+    "imgSrc": "moj.png"
+  },
+  {
+    "name": "Sainsbury's",
+    "imgSrc": "sainsburys.png"
+  },
+  {
+    "name": "Savills",
+    "imgSrc": "savills.png"
+  },
+  {
+    "name": "Telefonica",
+    "imgSrc": "telefonica.png"
+  }
+]

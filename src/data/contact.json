@@ -1,0 +1,39 @@
+{
+  "location": "Royal Docklands, London, UK",
+  "phone": "+44 (0) 7931415156",
+  "email": "me@pabloibanez.com",
+  "website": "http://www.pabloibanez.com",
+  "map": {
+    "center": {
+      "lat": 51.50933,
+      "lng": 0.0163313
+    },
+    "zoom": 14
+  },
+  "form": [
+    {
+      "name": "name",
+      "element": "input",
+      "type": "text",
+      "placeholder": "NAME"
+    },
+    {
+      "name": "company",
+      "element": "input",
+      "type": "text",
+      "placeholder": "COMPANY"
+    },
+    {
+      "name": "email",
+      "element": "input",
+      "type": "email",
+      "placeholder": "EMAIL"
+    },
+    {
+      "name": "message",
+      "element": "textarea",
+      "rows": 7,
+      "placeholder": "MESSAGE"
+    }
+  ]
+}

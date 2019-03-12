@@ -1,0 +1,38 @@
+[
+  {
+    "name": "javascript",
+    "icon": "icon-js",
+    "label": "SERVICES.JAVASCRIPT.LABEL",
+    "text": "SERVICES.JAVASCRIPT.TEXT"
+  },
+  {
+    "name": "backend",
+    "icon": "icon-pi-server",
+    "label": "SERVICES.BACKEND.LABEL",
+    "text": "SERVICES.BACKEND.TEXT"
+  },
+  {
+    "name": "architecture",
+    "icon": "icon-pi-architecture",
+    "label": "SERVICES.ARCHITECTURE.LABEL",
+    "text": "SERVICES.ARCHITECTURE.TEXT"
+  },
+  {
+    "name": "continuous_integration",
+    "icon": "icon-pi-continuous",
+    "label": "SERVICES.CONTINUOUS_INTEGRATION.LABEL",
+    "text": "SERVICES.CONTINUOUS_INTEGRATION.TEXT"
+  },
+  {
+    "name": "design",
+    "icon": "icon-responsive_design",
+    "label": "SERVICES.DESIGN.LABEL",
+    "text": "SERVICES.DESIGN.TEXT"
+  },
+  {
+    "name": "ideas",
+    "icon": "icon-idea",
+    "label": "SERVICES.IDEAS.LABEL",
+    "text": "SERVICES.IDEAS.TEXT"
+  }
+]

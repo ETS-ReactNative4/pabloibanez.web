@@ -1,0 +1,35 @@
+.techs-board h3 {
+  display: inline-block;
+}
+
+.techs-board .filter-buttons {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.techs-board .filter-buttons .btn {
+  background: transparent;
+  border: 1px solid #222;
+  margin: 0 10px;
+  padding: 5px 20px;
+}
+
+.techs-board .filter-buttons .btn:hover {
+  border-color: #ef4836;
+  background: #ef4836;
+  color: #FFF;
+}
+
+.techs-board .filter-buttons .btn.selected {
+  background: #222;
+  color: #FFF;
+}
+
+.techs-board .techs .tech {
+  margin-bottom: 10px;
+}
+
+.techs-board .techs .tech h5 {
+  border-bottom: 2px dashed #222;
+  padding-bottom: 5px;
+}

@@ -23,7 +23,9 @@
     "SKILLSET": "Habilidades",
     "FRONTEND": "Frontend",
     "BACKEND": "Backend",
-    "OTHER": "Otro"
+    "OTHER": "Otro",
+    "VIEW_PROFILE": "Ver perfil profesional",
+    "VIEW_FULL_SKILLSET": "Ver todas las habilidades"
   },
   "HOBBIES": {
     "TITLE": "Mis intereses",

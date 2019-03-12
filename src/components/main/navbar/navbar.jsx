@@ -65,8 +65,7 @@ class navbar extends Component {
   }
 
   render() {
-    return <nav className={`navbar navbar-custom navbar-fixed-top 
-    ${this.state.size === 'xs' ? 'custom-collapse' : null} ${this.state.navBarFixed}`}>
+    return <nav className={`navbar navbar-custom navbar-fixed-top ${this.state.size === 'xs' ? 'custom-collapse' : ''} ${this.props.style} ${this.state.navBarFixed || ''} `} >
       <div className="container">
         <div className="navbar-header">
           <button type="button" className="navbar-toggle" onClick={() => this.toggleNavBar()}>

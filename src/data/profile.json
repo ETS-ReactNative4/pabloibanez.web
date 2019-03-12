@@ -1,0 +1,92 @@
+{
+  "experienceLevels": 5,
+  "skillset": {
+    "main": [
+      {
+        "name": "Javascript ES6 / Typescript",
+        "experience": 5
+      },
+      {
+        "name": "React / Redux",
+        "experience": 5
+      },
+      {
+        "name": "Angular / NgRx",
+        "experience": 5
+      },
+      {
+        "name": "Node / Express / MongoDB",
+        "experience": 4
+      }
+    ],
+    "additional": [
+      {
+        "name": "PROFILE.FRONTEND",
+        "skills": [
+          "React",
+          "Sass",
+          "AngularJS",
+          "Boostrap",
+          "D3.js"
+        ]
+      },
+      {
+        "name": "PROFILE.BACKEND",
+        "skills": [
+          "C#",
+          ".NET",
+          "ASP.NET MVC",
+          "Entity Framework"
+        ]
+      },
+      {
+        "name": "PROFILE.OTHER",
+        "skills": [
+          "Agile",
+          "Jira",
+          "Git",
+          "SVN",
+          "REST",
+          "MongoDB"
+        ]
+      }
+    ]
+  },
+  "socialProfiles": [
+    {
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/in/pablo-ibanez-58150555/",
+      "icon": "icon-linkedin fa-fw"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/pabloibanezcom",
+      "icon": "icon-github"
+    }
+  ],
+  "profesionalProfile": [
+    "I am an ambitious, motivated and compromised web developer and software engineer with more than 6 years of experience in the IT industry. I think effectiveness and well done job are the keys.",
+    "Although I specialize in front -end solutions I have strong experience in the full cycle of the web development covering since database to the UI. I have worked in multiple agile environments so I can apply agile techniques to improve the pace of the cycle.",
+    "I have worked in projects with some of the largest private companies in Europe (Telefonica, Deutsche Bank, Iberdrola, ...) as well in public sector (Ministry of Justice UK, Aragon Parliament) having very different business such as real-estate, banking, energy."
+  ],
+  "hobbies": [
+    {
+      "name": "football",
+      "icon": "icon-futbol-o",
+      "animation": "bounceInDown",
+      "text": "Football"
+    },
+    {
+      "name": "running",
+      "icon": "icon-heartbeat",
+      "animation": "bounceInUp",
+      "text": "Running"
+    },
+    {
+      "name": "history",
+      "icon": "icon-university",
+      "animation": "bounceInRight",
+      "text": "History"
+    }
+  ]
+}

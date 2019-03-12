@@ -1,0 +1,232 @@
+[
+  {
+    "name": ".NET Core",
+    "types": [
+      "backend"
+    ]
+  },
+  {
+    "name": "Agile",
+    "types": [
+      "other"
+    ]
+  },
+  {
+    "name": "Angular",
+    "types": [
+      "frontend"
+    ]
+  },
+  {
+    "name": "AngularJS",
+    "types": [
+      "frontend"
+    ]
+  },
+  {
+    "name": "ASP.NET MVC",
+    "types": [
+      "frontend",
+      "backend"
+    ]
+  },
+  {
+    "name": "Azure",
+    "types": [
+      "other"
+    ]
+  },
+  {
+    "name": "BDD",
+    "types": [
+      "other"
+    ]
+  },
+  {
+    "name": "Big Data",
+    "types": [
+      "other"
+    ]
+  },
+  {
+    "name": "Bootstrap",
+    "types": [
+      "frontend"
+    ]
+  },
+  {
+    "name": "C#",
+    "types": [
+      "backend"
+    ]
+  },
+  {
+    "name": "CSS3",
+    "types": [
+      "frontend"
+    ]
+  },
+  {
+    "name": "D3.js",
+    "types": [
+      "frontend"
+    ]
+  },
+  {
+    "name": "Entity Framework",
+    "types": [
+      "backend"
+    ]
+  },
+  {
+    "name": "E2E testing",
+    "types": [
+      "frontend"
+    ]
+  },
+  {
+    "name": "Express",
+    "types": [
+      "backend"
+    ]
+  },
+  {
+    "name": "Git",
+    "types": [
+      "other"
+    ]
+  },
+  {
+    "name": "HTML5",
+    "types": [
+      "frontend"
+    ]
+  },
+  {
+    "name": "Jasmine",
+    "types": [
+      "frontend"
+    ]
+  },
+  {
+    "name": "Javascript",
+    "types": [
+      "frontend",
+      "backend"
+    ]
+  },
+  {
+    "name": "Jira",
+    "types": [
+      "other"
+    ]
+  },
+  {
+    "name": "jQuery",
+    "types": [
+      "frontend"
+    ]
+  },
+  {
+    "name": "Material Design",
+    "types": [
+      "frontend"
+    ]
+  },
+  {
+    "name": "MongoDB",
+    "types": [
+      "backend"
+    ]
+  },
+  {
+    "name": "Mongoose",
+    "types": [
+      "backend"
+    ]
+  },
+  {
+    "name": "MS SQL Server",
+    "types": [
+      "backend"
+    ]
+  },
+  {
+    "name": "NgRx",
+    "types": [
+      "frontend"
+    ]
+  },
+  {
+    "name": "Node.js",
+    "types": [
+      "backend"
+    ]
+  },
+  {
+    "name": "NPM",
+    "types": [
+      "other"
+    ]
+  },
+  {
+    "name": "Protractor",
+    "types": [
+      "frontend"
+    ]
+  },
+  {
+    "name": "Progressive Web Apps",
+    "types": [
+      "frontend"
+    ]
+  },
+  {
+    "name": "React",
+    "types": [
+      "frontend"
+    ]
+  },
+  {
+    "name": "Redux",
+    "types": [
+      "frontend"
+    ]
+  },
+  {
+    "name": "Responsive Design",
+    "types": [
+      "frontend"
+    ]
+  },
+  {
+    "name": "RESTful",
+    "types": [
+      "Backend"
+    ]
+  },
+  {
+    "name": "SASS",
+    "types": [
+      "frontend"
+    ]
+  },
+  {
+    "name": "Typescript",
+    "types": [
+      "frontend"
+    ]
+  },
+  {
+    "name": "TDD",
+    "types": [
+      "other"
+    ]
+  },
+  {
+    "name": "Wordpress",
+    "types": [
+      "other"
+    ]
+  }
+]

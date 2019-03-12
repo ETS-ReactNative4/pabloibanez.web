@@ -5,7 +5,7 @@ import intlES from 'react-intl/locale-data/es';
 import './App.css';
 import Main from './components/main/main';
 import Preloader from './components/preloader/preloader';
-import data from './data/data';
+import data from './data';
 import flattenMessages from './util/flattenMessages';
 
 addLocaleData([...intlEN, ...intlES]);

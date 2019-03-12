@@ -1,0 +1,26 @@
+[
+  {
+    "id": "london",
+    "name": "London, UK",
+    "period": "2013 - now",
+    "style": "light"
+  },
+  {
+    "id": "madrid",
+    "name": "Madrid, Spain",
+    "period": "2011 - 2013",
+    "style": "dark"
+  },
+  {
+    "id": "vasteras",
+    "name": "Västerås, Sweden",
+    "period": "2008 - 2010",
+    "style": "light"
+  },
+  {
+    "id": "zaragoza",
+    "name": "Zaragoza, Spain",
+    "period": "2005 - 2008, 2010-2011",
+    "style": "light"
+  }
+]
