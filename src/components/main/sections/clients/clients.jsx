@@ -6,6 +6,7 @@ import sliderSettings from '../../../../util/sliderSettings';
 const clients = (props) => {
   const customSliderSettings = {
     ...sliderSettings,
+    dotsClass: 'slick-dots dots-white',
     slidesToShow: 4,
     slidesToScroll: 4,
     responsive: [

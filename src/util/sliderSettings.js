@@ -1,4 +1,4 @@
-const slickSettings = {
+const sliderSettings = {
   dots: true,
   arrows: false,
   autoplay: true,
@@ -9,4 +9,4 @@ const slickSettings = {
   autoplaySpeed: 5000
 };
 
-export default slickSettings;
+export default sliderSettings;

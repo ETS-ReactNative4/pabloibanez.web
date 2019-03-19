@@ -74,7 +74,9 @@
   },
   "PORTFOLIO": {
     "TITLE": "Portfolio",
-    "SUBTITLE": "Some of the public projects I´ve worked on."
+    "SUBTITLE": "Some of the public projects I´ve worked on.",
+    "GITHUB_LINK_1": "In the meantime you can have a look at my Github profile ",
+    "GITHUB_LINK_2": "here"
   },
   "CONTACT": {
     "TITLE": "Contact Me",

@@ -33,30 +33,11 @@ class Contact extends React.Component {
               <p><FormattedMessage id="CONTACT.SUBTITLE" /></p>
             </div>
             <div className="col-md-6 wow bounceInUp contact-details">
-              {/* <ul className="iconlist">
+              <ul className="iconlist">
                 <li><i className="fa fa-fw fa-map-marker"></i>{this.props.contact.location}</li>
-                <li><i className="fa fa-fw fa-phone"></i>{this.props.contact.phone}</li>
                 <li><i className="fa fa-fw fa-envelope-o"></i><a className="whiteLink" href="mailto:">{this.props.contact.email}</a></li>
                 <li><i className="fa fa-fw fa-globe"></i><a className="whiteLink" href="">{this.props.contact.website}</a></li>
-              </ul> */}
-              <div>
-                <div className="profile-item">
-                  <i className="icon-envelope-o" />
-                  <div>me@pabloibanez.com</div>
-                </div>
-              </div>
-              <div>
-                <div className="profile-item">
-                  <i className="icon-phone" />
-                  <div>+44 (0) 7931415156</div>
-                </div>
-              </div>
-              <div>
-                <div className="profile-item">
-                  <i className="icon-marker" />
-                  <div>Royal Docklands, London, UK</div>
-                </div>
-              </div>
+              </ul>
             </div>
             <div className="col-md-6 wow bounceInRight">
 

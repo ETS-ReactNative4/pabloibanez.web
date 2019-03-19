@@ -15,6 +15,6 @@
   height: 4px !important;
 }
 
-.slick-dots li button::before {
+.slick-dots.dots-white li button::before {
   color: #fff !important;
 }

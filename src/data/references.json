@@ -20,19 +20,19 @@
   {
     "name": "Javier Martinez",
     "role": "Head of call center development at Telefonica in 2013",
-    "imgSrc": "reference_1.jpg",
+    "imgSrc": "reference_5.jpg",
     "text": "Pablo is simply a great worker. What I like about him is that he does always his best to be a better and better developer."
   },
   {
     "name": "Jorge Prats",
     "role": "Solutions Architect, Lead .NET Developer at GFT in 2011",
-    "imgSrc": "reference_1.jpg",
+    "imgSrc": "reference_7.jpg",
     "text": "Very motivated developer. Working with him was a really pleasure."
   },
   {
     "name": "Joaquin Dominguez",
     "role": "Head of IT at Cortes de Aragon in 2008",
-    "imgSrc": "reference_1.jpg",
+    "imgSrc": "reference_6.jpg",
     "text": "Although he was only intern he helped us a lot with the development of our website."
   }
 ]

@@ -4,6 +4,9 @@ import Slider from "react-slick";
 import sliderSettings from '../../../../util/sliderSettings';
 
 const references = (props) => {
+
+  const customSliderSettings = { ...sliderSettings, autoplay: false };
+
   return <section className="callout">
     <div className="container">
       <div className="row">
@@ -11,7 +14,7 @@ const references = (props) => {
           <h3><FormattedMessage id="REFERENCES.TITLE" /></h3>
         </div>
         <div className="col-md-9 wow bounceInRight">
-          <Slider {...sliderSettings}>
+          <Slider {...customSliderSettings}>
             {props.references.map((r, i) => <div key={i}>
               <p className="reference-text">{r.text}</p>
               <div className="reference-contact">

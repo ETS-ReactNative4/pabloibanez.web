@@ -38,8 +38,8 @@ class profile extends React.Component {
               </div>
             })}
           </div>
-          <div className="profile-widget">
-            <h3>Social Profiles</h3>
+          <div className="profile-widget social-profiles">
+            <h3><FormattedMessage id="PROFILE.SOCIAL_PROFILES" /></h3>
             <ul className="widget-social">
               {this.props.profile.socialProfiles.map(sp => {
                 return <li key={sp.name}>
@@ -53,13 +53,18 @@ class profile extends React.Component {
         </div>
         <div className="col-md-6 col-sm-12 wow bounceInRight professional-profile visible">
           <div className="additional-header additional-profile-header">
-            <h3>Profesional Profile</h3><a className="view-all-skills" onClick={this.toggleTechStack}><FormattedMessage id="PROFILE.VIEW_FULL_SKILLSET" /></a>
+            <h3><FormattedMessage id="PROFILE.PROFESIONAL_PROFILE_TITLE" /></h3><a className="view-all-skills" onClick={this.toggleTechStack}><FormattedMessage id="PROFILE.VIEW_FULL_SKILLSET" /></a>
           </div>
           {this.props.profile.profesionalProfile.map((p, i) => {
-            return <p key={i} className="justify-xs">{p}</p>
+            return <p key={i} className="justify-xs"><FormattedMessage id={p} /></p>
           })}
         </div>
       </React.Fragment>);
+
+    const techsBoard = <TechsBoard
+      techs={this.props.techs}
+      onShowBasicProfile={this.toggleTechStack}
+    />
 
 
     return <section id="profile" className="section">
@@ -69,13 +74,7 @@ class profile extends React.Component {
             <h2>Pablo Ibanez</h2>
             <p>{this.props.roles.map((r, i) => <span key={i}><FormattedMessage id={r} />{i < this.props.roles.length - 1 ? ' | ' : null}</span>)}</p>
           </div>
-
-          {this.state.showTechStack ?
-            <TechsBoard
-              techs={this.props.techs}
-              onShowBasicProfile={this.toggleTechStack}
-            />
-            : basicProfile}
+          {this.state.showTechStack ? techsBoard : basicProfile}
         </div>
       </div>
     </section>;

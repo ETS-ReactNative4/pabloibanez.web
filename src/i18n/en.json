@@ -25,7 +25,12 @@
     "BACKEND": "Backend",
     "OTHER": "Other",
     "VIEW_PROFILE": "View professional profile",
-    "VIEW_FULL_SKILLSET": "View full tech stack"
+    "VIEW_FULL_SKILLSET": "View full tech stack",
+    "SOCIAL_PROFILES": "Social Profiles",
+    "PROFESIONAL_PROFILE_TITLE": "Professional Profile",
+    "PROFESIONAL_PROFILE_1": "I am an ambitious, motivated and compromised software engineer and web developer with more than 8 years of experience in the IT industry. I think effectiveness and well done job are the keys.",
+    "PROFESIONAL_PROFILE_2": "Although I specialize in front end solutions I have strong experience in the full cycle of the web development covering since database to the UI. As I have worked in multiple projects and environments I'm very adaptive professional and I can help in many scenarios.",
+    "PROFESIONAL_PROFILE_3": "I have worked in projects with some of the largest private companies in Europe (Telefonica, Deutsche Bank, Iberdrola, ...) as well in public sector (Ministry of Justice UK, Aragon Parliament) having very different business such as real-estate, banking, energy."
   },
   "HOBBIES": {
     "TITLE": "What I like",
@@ -36,23 +41,23 @@
     "MY_SERVICES": "My Services.",
     "JAVASCRIPT": {
       "LABEL": "Javascript",
-      "TEXT": "Very strong experience on AngularJS and getting more and more experience on Angular 2 &amp; TypeScript. Besides that I also deal everyday with some of the most popular Javascript libraries and frameworks."
+      "TEXT": "Very strong experience on the most popular frameworks/libraries (React and Angular). Always taking advantage from latest features from ECMAScript and implementing modern architectures such as Redux or NgRx."
     },
     "BACKEND": {
       "LABEL": "Back end",
-      "TEXT": "Extensive knowledge and experience on most of the .NET technologies such as C#, ASP.Net MVC, ASP.Net Web API or Entity Framework."
+      "TEXT": "Extensive knowledge and experience on developing RESTfull APIs with so different technologies like .NET Core or NodeJS/Express and both SQL and NoSQL databases access by using ORM frameworks."
     },
     "CONTINUOUS_INTEGRATION": {
       "LABEL": "Continuous Integration (CI)",
-      "TEXT": "I believe team working is a key to a successful delivery. I have extensive experience working in Agile environments."
+      "TEXT": "As software engineer I like to play an important role in the whole continuous integration process by following practices including writting extensive test suites, using git properly or doing code reviews."
     },
     "ARCHITECTURE": {
       "LABEL": "Sofware Architecture",
-      "TEXT": "Applying geolocation to your business will be a very useful feature. Why don't we do it? I have very good knowledge of Google Maps API and all its libraries (places, autocomplete, drawing, ...)."
+      "TEXT": "Ability to define the best high-level technical solution and software standards for every scenario. Having experience on multiple platforms / frameworks makes easier to optimize the full process as much as possible."
     },
     "DESIGN": {
       "LABEL": "Web design & templating",
-      "TEXT": "Showing all your content in a proper way to your users is a must nowadays. I can help you with this by using Bootstrap, HTML5, SASS and new design technologies coming onto the market every day."
+      "TEXT": "Showing all the content in a proper way to your users is a must nowadays. I can help with this by using HTML5, SASS and new design technologies coming onto the market every day."
     },
     "IDEAS": {
       "LABEL": "Fresh ideas",
@@ -77,7 +82,9 @@
   },
   "PORTFOLIO": {
     "TITLE": "Portfolio",
-    "SUBTITLE": "My personal repositories."
+    "SUBTITLE": "(In progress) - My personal repositories will be shown here.",
+    "GITHUB_LINK_1": "In the meantime you can have a look at my Github profile ",
+    "GITHUB_LINK_2": "here"
   },
   "CONTACT": {
     "TITLE": "Get in touch",

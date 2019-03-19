@@ -47,8 +47,8 @@ class Main extends React.Component {
     return <div className="main">
       <NavBar
         style={this.state.style}
-        goToSection={(section) => { this.goToSection(section) }}
-        onLanguageChange={(lang) => this.props.onLanguageChange(lang)}
+        goToSection={this.goToSection}
+        onLanguageChange={this.props.onLanguageChange}
         sections={this.state.sections}
         activeSection={this.state.activeSection}
       />
@@ -78,7 +78,9 @@ class Main extends React.Component {
       </Element>
       <Element name="resume">
         <Resume
-          resume={this.props.data.resume} />
+          resume={this.props.data.resume}
+          goToSection={this.goToSection}
+        />
         <Clients
           clients={this.props.data.clients} />
       </Element>

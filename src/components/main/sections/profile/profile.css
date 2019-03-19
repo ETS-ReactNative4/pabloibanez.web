@@ -48,3 +48,7 @@
   transition: opacity 1.5s;
   -webkit-transition: opacity 1.5s;
 }
+
+.profile-widget.social-profiles {
+  margin-top: 45px;
+}

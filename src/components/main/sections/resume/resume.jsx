@@ -1,6 +1,5 @@
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
-import swal from 'sweetalert2';
 
 const resume = (props) => {
 
@@ -69,15 +68,6 @@ const resume = (props) => {
     </div>
   );
 
-  const requestCV = () => {
-    swal({
-      title: 'My CV',
-      text: '',
-      type: 'info',
-      confirmButtonText: ''
-    });
-  }
-
   return <section id="resume" className="section">
     <div className="container">
       <div className="row">
@@ -90,7 +80,7 @@ const resume = (props) => {
       {transformExperience('education', props.resume.education, <FormattedMessage id="RESUME.EDUCATION" />)}
       <div className="row">
         <div className="col-md-6 col-md-offset-3 wow bounceInUp downloadcv-container">
-          <a onClick={() => requestCV()} className="btn btn-default btn-custom-2">
+          <a onClick={() => props.goToSection('contact')} className="btn btn-default btn-custom-2">
             <i className="fa fa-cloud-download icon-before"></i> <FormattedMessage id="RESUME.REQUESTCV_BUTTON" />
           </a>
         </div>
