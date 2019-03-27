@@ -71,22 +71,19 @@
   ],
   "hobbies": [
     {
-      "name": "football",
       "icon": "icon-futbol-o",
       "animation": "bounceInDown",
-      "text": "Football"
+      "text": "HOBBY_1"
     },
     {
-      "name": "running",
       "icon": "icon-heartbeat",
       "animation": "bounceInUp",
-      "text": "Running"
+      "text": "HOBBY_2"
     },
     {
-      "name": "history",
       "icon": "icon-university",
       "animation": "bounceInRight",
-      "text": "History"
+      "text": "HOBBY_3"
     }
   ]
 }

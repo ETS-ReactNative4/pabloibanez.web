@@ -53,7 +53,7 @@ class profile extends React.Component {
         </div>
         <div className="col-md-6 col-sm-12 wow bounceInRight professional-profile visible">
           <div className="additional-header additional-profile-header">
-            <h3><FormattedMessage id="PROFILE.PROFESIONAL_PROFILE_TITLE" /></h3><a className="view-all-skills" onClick={this.toggleTechStack}><FormattedMessage id="PROFILE.VIEW_FULL_SKILLSET" /></a>
+            <h3><FormattedMessage id="PROFILE.PROFESIONAL_PROFILE_TITLE" /></h3><a className="view-all-skills" onClick={this.toggleTechStack}><FormattedMessage id="PROFILE.VIEW_FULL_TECHSTACK" /></a>
           </div>
           {this.props.profile.profesionalProfile.map((p, i) => {
             return <p key={i} className="justify-xs"><FormattedMessage id={p} /></p>

@@ -52,3 +52,12 @@
 .Cursor--blinking {
   display: none;
 }
+
+@media (max-width: 767px) {
+  .city-info {
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

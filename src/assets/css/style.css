@@ -1014,24 +1014,30 @@ h3>.fa {
 /* ---------------------------------------------- */
 
 @media (min-width: 768px) and (max-width: 991px) {
+
   .section,
   .callout,
   .contact_container {
     padding: 50px 0;
   }
+
   #stats h3 {
     margin: 5px 0 0;
   }
+
   #stats h4 {
     margin: 5px 0 50px;
   }
+
   .professional-profile {
     margin-top: 50px;
   }
+
   .downloadcv-container,
   .mailButtonContainer {
     text-align: center;
   }
+
   .contact-details {
     margin-bottom: 50px;
   }
@@ -1041,58 +1047,86 @@ h3>.fa {
   #intro {
     /* padding: 140px 0 160px 0; */
   }
+
+  .container {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
   .section,
   .callout,
   .contact_container {
     padding: 50px 0;
   }
+
   .wrapper {
     text-align: center;
   }
+
   #profile-contact .profile-item {
     margin: 0 0 20px;
   }
+
   #stats .stat {
     margin: 0 0 20px;
   }
+
   .cityinfo {
     right: 0;
     left: 0;
   }
+
   .view-all-skills {
     display: none;
   }
+
   .profile-widget {
     margin-bottom: 50px;
   }
+
   .callout h3 {
     margin: 5px 0 50px;
   }
+
   .resume-item h4 {
     margin-bottom: 20px;
   }
+
   .resume-place {
     margin-top: 30px;
   }
+
   .headline {
     margin: 0 0 40px;
   }
+
   #stats h3 {
     margin: 5px 0 0;
   }
+
   #stats h4 {
     margin: 5px 0 50px;
   }
+
   .portfolio-item {
     margin-bottom: 50px;
   }
+
   .contact-details {
     margin-bottom: 50px;
   }
+
   .justify-xs {
     text-align: justify;
   }
+
   .customlist {
     text-align: initial;
+  }
+}
+
+@media (max-width: 991px) {
+  .page-triangle {
+    display: none;
   }
 }

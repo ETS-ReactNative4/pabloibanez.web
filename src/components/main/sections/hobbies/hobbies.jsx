@@ -11,13 +11,13 @@ const hobbies = (props) => {
           <br />
           <h4>( <FormattedMessage id="HOBBIES.BESIDES_DEVELOPING" /> <i className="fa fa-smile-o "></i> )</h4>
         </div>
-        {props.hobbies.map(h => {
-          return <div key={h.name} className={['col-md-3 col-sm-4 wow', h.animation].join(' ')}>
+        {props.hobbies.map((h, i) => {
+          return <div key={i} className={['col-md-3 col-sm-4 wow', h.animation].join(' ')}>
             <div className="stat">
               <div className="stat-icon text-center">
                 <h2><i className={h.icon}></i></h2>
               </div>
-              <h3 className="text-center">{h.text}</h3>
+              <h3 className="text-center"><FormattedMessage id={`HOBBIES.${h.text}`} /></h3>
             </div>
           </div>
         })}

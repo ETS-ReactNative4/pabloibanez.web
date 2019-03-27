@@ -25,16 +25,24 @@
     "BACKEND": "Backend",
     "OTHER": "Other",
     "VIEW_PROFILE": "View professional profile",
-    "VIEW_FULL_SKILLSET": "View full tech stack",
+    "VIEW_FULL_TECHSTACK": "View full tech stack",
+    "FULL_TECHSTACK": "Full tech stack",
     "SOCIAL_PROFILES": "Social Profiles",
     "PROFESIONAL_PROFILE_TITLE": "Professional Profile",
+    "TECH_CATEGORY_ALL": "All",
+    "TECH_CATEGORY_FRONTEND": "Frontend",
+    "TECH_CATEGORY_BACKEND": "Backend",
+    "TECH_CATEGORY_OTHER": "Other",
     "PROFESIONAL_PROFILE_1": "I am an ambitious, motivated and compromised software engineer and web developer with more than 8 years of experience in the IT industry. I think effectiveness and well done job are the keys.",
     "PROFESIONAL_PROFILE_2": "Although I specialize in front end solutions I have strong experience in the full cycle of the web development covering since database to the UI. As I have worked in multiple projects and environments I'm very adaptive professional and I can help in many scenarios.",
     "PROFESIONAL_PROFILE_3": "I have worked in projects with some of the largest private companies in Europe (Telefonica, Deutsche Bank, Iberdrola, ...) as well in public sector (Ministry of Justice UK, Aragon Parliament) having very different business such as real-estate, banking, energy."
   },
   "HOBBIES": {
     "TITLE": "What I like",
-    "BESIDES_DEVELOPING": "besides developing..."
+    "BESIDES_DEVELOPING": "besides developing...",
+    "HOBBY_1": "Football",
+    "HOBBY_2": "Running",
+    "HOBBY_3": "History"
   },
   "SERVICES": {
     "WHAT_CAN_I_DO": "What I can do",
@@ -45,7 +53,7 @@
     },
     "BACKEND": {
       "LABEL": "Back end",
-      "TEXT": "Extensive knowledge and experience on developing RESTfull APIs with so different technologies like .NET Core or NodeJS/Express and both SQL and NoSQL databases access by using ORM frameworks."
+      "TEXT": "Extensive knowledge and experience on developing RESTful APIs with so different technologies like .NET Core or NodeJS/Express and both SQL and NoSQL databases access by using ORM frameworks."
     },
     "CONTINUOUS_INTEGRATION": {
       "LABEL": "Continuous Integration (CI)",
@@ -65,7 +73,19 @@
     }
   },
   "REFERENCES": {
-    "TITLE": "What people say"
+    "TITLE": "What people say",
+    "REF_1_ROLE": "Lead Frontend Developer at Ministry of Justice in 2018",
+    "REF_1_TEXT": "",
+    "REF_2_ROLE": "Lead Frontend Developer at Aimia in 2017",
+    "REF_2_TEXT": "",
+    "REF_3_ROLE": "Solution Architect & Lead Developer at Savills in 2016",
+    "REF_3_TEXT": "",
+    "REF_4_ROLE": "Head of call center development at Telefonica in 2013",
+    "REF_4_TEXT": "",
+    "REF_5_ROLE": "Solutions Architect, Lead .NET Developer at GFT in 2011",
+    "REF_5_TEXT": "",
+    "REF_6_ROLE": "Head of IT at Cortes de Aragon in 2008",
+    "REF_6_TEXT": ""
   },
   "RESUME": {
     "TITLE": "Resume",

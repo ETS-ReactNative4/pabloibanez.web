@@ -59,9 +59,9 @@
         "Developing a Big Data based e-commerce application for business customers (Sainsburys and ICA)",
         "Maintaining a process of Front-End code quality within the team (coding standards, design patterns, EsLint, Karma unit tests, TDD)"
       ],
-      "learnt": "How important is keeping coding standards, specially in a fast-moving team.",
+      "learnt": "How important is keeping coding standards, especially in a fast-moving team.",
       "achievements": [
-        "Developing a very atractive and user friendly application",
+        "Developing a very attractive and user-friendly application",
         "Improving coding quality by following more restrictive reviews and lint rules",
         "Managing to do complex graphs with D3.js in such little time"
       ]
@@ -109,7 +109,7 @@
       "learnt": "Agile Methodology.",
       "achievements": [
         "Migrating the old MVC architecture to a more modern single-page one.",
-        "Impelementing new API architecture to be consumed from new SP site",
+        "Implementing new API architecture to be consumed from new SP site",
         "Making the site to be full responsive",
         "Implementing custom user experience by developing new account section",
         "Supporting 23 languages and showing custom site for more than 50 countries"
@@ -119,22 +119,23 @@
       "title": "Telefonica",
       "period": "May 2011 - Jun 2013",
       "location": "Madrid, Spain",
-      "role": "Web Developer",
-      "paragraphs": [
-        {
-          "type": "p",
-          "text": "We develop and support not only for Spanish companies (Iberdrola, Iberia, Spanish Government ...) but also for multinational companies (Allianz, Barclays). We offer voice applications and agent applications. Each member of the team is responsible for several projects so I have the full responsibility of some of them."
-        },
-        {
-          "type": "ul",
-          "elements": [
-            "Internal web apps for customers based on .NET environment (ASP.NET MVC) on server-side and jQuery and Knockout on client-side.",
-            "Multi-client support and development of call-center n-tier architecture websites.",
-            "Maintenance of Internet Information Services and database (MSSQL Server and Oracle) on server side.",
-            "Coordination of all upgrades of web applications in production environment.",
-            "Provided support to clients by dealing directly with them."
-          ]
-        }
+      "role": "Full Stack Web Developer",
+      "techStack": [
+        "AngularJS",
+        "jQuery",
+        "ASP.Net MVC",
+        "C#",
+        "MS SQL Server"
+      ],
+      "responsabilities": [
+        "Multi-client support and development of call-center n-tier architecture websites",
+        "Coordinating of all upgrades of web applications in production environment",
+        "Providing support to clients (Iberdrola, Allianz, Barclays...) by dealing directly with them"
+      ],
+      "learnt": "Keeping clients satisfied by improving their existing technological solutions.",
+      "achievements": [
+        "Introducing modern Javascript framework like AngularJS in existing web apps.",
+        "Meeting clients requirements successfully in shorter time"
       ]
     },
     {
@@ -142,20 +143,20 @@
       "period": "Jun 2010 - May 2011",
       "location": "Zaragoza, Spain",
       "role": "Junior Developer",
-      "paragraphs": [
-        {
-          "type": "p",
-          "text": "I worked in a couple of projects for the financial services industry (Deutsche Bank and Ibercaja Bank) where I could acquire strong .NET skills."
-        },
-        {
-          "type": "ul",
-          "elements": [
-            "Object Orientated Analysis / Design of web application by using ASP.Net and C#.",
-            "Object Orientated Analysis / Design of data-transfer layer (Web services).",
-            "Design and development of database and stored procedures by using MSSQL Server.",
-            "Use of some third-party APIs such as Google Maps API."
-          ]
-        }
+      "techStack": [
+        "Javascript",
+        "ASP Classic",
+        "C#",
+        "MS SQL Server"
+      ],
+      "responsabilities": [
+        "Analysis and design of greenfield application for Ibercaja Bank to manage all its real estates",
+        "Development of data-transfer layer (web services)"
+      ],
+      "learnt": "How to work in a professional environment with external clients",
+      "achievements": [
+        "Integrating Javascript in old-style architecture as ASP classic",
+        "Making web application to be compatible with old bank browsers"
       ]
     },
     {
@@ -163,11 +164,21 @@
       "period": "Aug 2007 - Aug 2008",
       "location": "Zaragoza, Spain",
       "role": "Web Developer (Internship)",
-      "paragraphs": [
-        {
-          "type": "p",
-          "text": "My first experience consisted on managing the Aragon Parliament website. I used Joomla CMS, Javascript, PHP, MySQL, Apache. Although some of the used technologies don't play an important role in my current skill set I could learn a lot about basics of professional team work."
-        }
+      "techStack": [
+        "Java",
+        "Joomla",
+        "PHP",
+        "MySQL",
+        "Javascript"
+      ],
+      "responsabilities": [
+        "Development and maintenance of Aragon Parliament website",
+        "Development of internal staff application for building entrance"
+      ],
+      "learnt": "Working in public sector is completely different from private sector.",
+      "achievements": [
+        "Learning as much as possible",
+        "Introducing a good number of new user experience features in Parliament website"
       ]
     }
   ],

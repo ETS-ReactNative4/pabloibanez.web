@@ -24,7 +24,7 @@ const references = (props) => {
                     {r.name}
                   </div>
                   <div>
-                    {r.role}
+                    <FormattedMessage id={`REFERENCES.${r.role}`} />
                   </div>
                 </div>
               </div>

@@ -11,7 +11,7 @@ const resume = (props) => {
           <div>{exp.techStack && exp.techStack.join(' | ')}</div>
         </div>
         <div className="resume-element">
-          <h5><i className="icon-pi-responsabilities" />Key responsabilities</h5>
+          <h5><i className="icon-pi-responsabilities" />Key responsibilities</h5>
           <ul>{exp.responsabilities && exp.responsabilities.map((rs, i) => <li key={i}>{rs}</li>)}</ul>
         </div>
         <div className="resume-element">
@@ -54,17 +54,25 @@ const resume = (props) => {
         <React.Fragment key={i}>
           <div className={`col-md-6 ${i > 0 ? 'col-md-offset-3' : ''} col-sm-8 resume-item wow bounceInUp`}>
             <h4 className="resume-role">{exp.role}</h4>
+            <div className="visible-xs-block">
+              {getResumePlace(exp)}
+            </div>
             {type === 'experience' ? experienceDetails(exp) : educationDetails(exp)}
-            <hr className="hidden-xs" />
+            <hr />
           </div>
 
-          <div className="col-md-3 col-sm-4 resume-place wow bounceInRight">
-            <h4 className="resume-company"><i className="fa fa-suitcase"></i> {exp.title}</h4>
-            <i className="fa fa-calendar"></i> {exp.period}
-            <br /><i className="fa fa-map-marker"></i> {exp.location}
-            <hr className="visible-xs" />
+          <div className="col-md-3 col-sm-4 wow bounceInRight hidden-xs">
+            {getResumePlace(exp)}
           </div>
         </React.Fragment>)}
+    </div>
+  );
+
+  const getResumePlace = (exp) => (
+    <div className="resume-place">
+      <h4 className="resume-company"><i className="fa fa-suitcase"></i> {exp.title}</h4>
+      <i className="fa fa-calendar"></i> {exp.period}
+      <br /><i className="fa fa-map-marker"></i> {exp.location}
     </div>
   );
 

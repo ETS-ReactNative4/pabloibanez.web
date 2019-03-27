@@ -30,3 +30,9 @@
 .resume-role {
   font-weight: bold;
 }
+
+@media (max-width: 767px) {
+  .resume-element {
+    text-align: left;
+  }
+}

@@ -9,7 +9,7 @@
     "CHANGE_LANGUAGE": "Cambiar idioma (English)"
   },
   "FOOTER": {
-    "MAIN": "Diseño y desarrollo de"
+    "MAIN": "Diseño y desarrollo por"
   },
   "INTRO": {
     "HELLO": "Hola, soy Pablo Ibañez",
@@ -20,73 +20,101 @@
     }
   },
   "PROFILE": {
-    "SKILLSET": "Habilidades",
+    "SKILLSET": "Tecnologías",
     "FRONTEND": "Frontend",
     "BACKEND": "Backend",
     "OTHER": "Otro",
     "VIEW_PROFILE": "Ver perfil profesional",
-    "VIEW_FULL_SKILLSET": "Ver todas las habilidades"
+    "VIEW_FULL_TECHSTACK": "Ver todas las tecnologías",
+    "FULL_TECHSTACK": "Todas las tecnologías",
+    "SOCIAL_PROFILES": "Mis perfiles",
+    "PROFESIONAL_PROFILE_TITLE": "Perfil profesional",
+    "TECH_CATEGORY_ALL": "Todas",
+    "TECH_CATEGORY_FRONTEND": "Frontend",
+    "TECH_CATEGORY_BACKEND": "Backend",
+    "TECH_CATEGORY_OTHER": "Otras",
+    "PROFESIONAL_PROFILE_1": "I am an ambitious, motivated and compromised software engineer and web developer with more than 8 years of experience in the IT industry. I think effectiveness and well done job are the keys.",
+    "PROFESIONAL_PROFILE_2": "Although I specialize in front end solutions I have strong experience in the full cycle of the web development covering since database to the UI. As I have worked in multiple projects and environments I'm very adaptive professional and I can help in many scenarios.",
+    "PROFESIONAL_PROFILE_3": "I have worked in projects with some of the largest private companies in Europe (Telefonica, Deutsche Bank, Iberdrola, ...) as well in public sector (Ministry of Justice UK, Aragon Parliament) having very different business such as real-estate, banking, energy."
   },
   "HOBBIES": {
     "TITLE": "Mis intereses",
-    "BESIDES_DEVELOPING": "además de desarrollar..."
+    "BESIDES_DEVELOPING": "además de desarrollar...",
+    "HOBBY_1": "Fútbol",
+    "HOBBY_2": "Running",
+    "HOBBY_3": "Historia"
   },
   "SERVICES": {
-    "WHAT_CAN_I_DO": "Que puedo hacer",
+    "WHAT_CAN_I_DO": "Qué puedo hacer",
     "MY_SERVICES": "Mis servicios.",
-    "FRONTEND": {
-      "LABEL": "Front end",
-      "TEXT": "Very strong experience on AngularJS and getting more and more experience on Angular 2 &amp; TypeScript. Besides that I also deal everyday with some of the most popular Javascript libraries and frameworks."
+    "JAVASCRIPT": {
+      "LABEL": "Javascript",
+      "TEXT": "Amplia experiencia en los frameworks y librerías (React y Angular). Siempre sacando el máximo partido de las últimas funcionalidades de ECMAScript e implementando arquitecturas modernas como Redux o NgRx."
     },
-    "DOTNET": {
-      "LABEL": ".NET",
-      "TEXT": "Extensive knowledge and experience on most of the .NET technologies such as C#, ASP.Net MVC, ASP.Net Web API or Entity Framework."
+    "BACKEND": {
+      "LABEL": "Back end",
+      "TEXT": "Extenso conocimiento y experiencia en desarrollo de RESTful APIs con diferentes tecnologías como .NET Core o NodeJS/Express e intragración con bases de datos tanto SQL como NOSQL mediante frameworks ORM."
     },
-    "AGILE": {
-      "LABEL": "Agile / Teamwork",
-      "TEXT": "I believe team working is a key to a successful delivery. I have extensive experience working in Agile environments."
+    "CONTINUOUS_INTEGRATION": {
+      "LABEL": "Integración continua (CI)",
+      "TEXT": "Como ingeniero de software me gusta involucrarme en el proceso de integración continua siguiendo prácticas como escribir test suites extendibles, usando git apropiadamente o haciendo code reviews."
     },
-    "GEOLOCATION": {
-      "LABEL": "Geolocation",
-      "TEXT": "Applying geolocation to your business will be a very useful feature. Why don't we do it? I have very good knowledge of Google Maps API and all its libraries (places, autocomplete, drawing, ...)."
+    "ARCHITECTURE": {
+      "LABEL": "Arquitectura de software",
+      "TEXT": "Capacidad para definir el mejor diseño de alto nivel posible para cada escenario. La experiencia en múltiples plataformas, frameworks y proyectos hace más fácil optimizar todo el proceso lo máximo posible."
     },
-    "RESPONSIVE": {
-      "LABEL": "Responsive design",
-      "TEXT": "Showing all your content in a proper way to your users is a must nowadays. I can help you with this by using Bootstrap, HTML5, SASS and new design technologies coming onto the market every day."
+    "DESIGN": {
+      "LABEL": "Diseño web y modelado",
+      "TEXT": "Mostrar todo el contenido en una manera adecuada y elegante a tus clientes es obligatorio hoy en día. Puedo ayudar en ello usando HTML5, SASS y nuevas tecnologías de diseño que vienen surgiendo."
     },
     "IDEAS": {
-      "LABEL": "Fresh ideas",
-      "TEXT": "Besides achieving the requirements from the employers/clients I also like to suggest new solutions to improve the quality of the product. I'm not a conformist developer."
+      "LABEL": "Nuevas ideas",
+      "TEXT": "Aparte de cumplir los requerimientos por parte del cliente tambien me gusta sugerir nuevas soluciones que puedan mejorar la calidad del producto final."
     }
   },
   "REFERENCES": {
-    "TITLE": "Que opina la gente"
+    "TITLE": "Qué opina la gente",
+    "REF_1_ROLE": "Desarrolador frontend jefe en Ministerio de Justicia (UK) en 2018",
+    "REF_1_TEXT": "",
+    "REF_2_ROLE": "Desarrolador frontend jefe en Ministerio de Aimia en 2017",
+    "REF_2_TEXT": "",
+    "REF_3_ROLE": "Desarrolador frontend jefe y arquitecto de Savills en 2016",
+    "REF_3_TEXT": "",
+    "REF_4_ROLE": "Jefe de desarrollo de call center en Telefonica en 2013",
+    "REF_4_TEXT": "",
+    "REF_5_ROLE": "Arquitecto .NET en GFT en 2011",
+    "REF_5_TEXT": "",
+    "REF_6_ROLE": "Jefe de informatica en las Cortes de Aragon en 2008",
+    "REF_6_TEXT": ""
   },
   "RESUME": {
     "TITLE": "Currículum",
     "SUBTITLE": "Mi educación y experiencia.",
     "EXPERIENCE": "Experiencia",
     "EDUCATION": "Educación",
-    "REQUESTCV": "Solicitar CV"
+    "REQUESTCV_BUTTON": "Pedir CV",
+    "REQUESTCV_TITLE": "Mi CV",
+    "REQUESTCV_TEXT": "Si quieres una version actualizada de mi curriculum no dudes en escribirme en me@pabloibanez.com",
+    "REQUESTCV_CLOSE": "Cerrar"
   },
   "CLIENTS": {
-    "EXPERIENCEWITH": "Experience with"
+    "EXPERIENCEWITH": "Experiencia con"
   },
   "PORTFOLIO": {
     "TITLE": "Portfolio",
-    "SUBTITLE": "Some of the public projects I´ve worked on.",
-    "GITHUB_LINK_1": "In the meantime you can have a look at my Github profile ",
-    "GITHUB_LINK_2": "here"
+    "SUBTITLE": "(En desarrollo) - Mi repositorio personal se motrará aquí.",
+    "GITHUB_LINK_1": "Mientras tanto puedes echar un vistazo a mi perfil de Github ",
+    "GITHUB_LINK_2": "aquí"
   },
   "CONTACT": {
-    "TITLE": "Contact Me",
-    "SUBTITLE": "Drop me a line or give me a ring. I´d love to hear you.",
+    "TITLE": "Contacto",
+    "SUBTITLE": "Escríbeme si necesitas mas información sobre mi.",
     "FORM": {
-      "NAME": "Name",
-      "COMPANY": "Company",
+      "NAME": "Nombre",
+      "COMPANY": "Empresa",
       "EMAIL": "Email",
-      "MESSAGE": "Your message",
-      "SEND": "Send it"
+      "MESSAGE": "Tu mensaje",
+      "SEND": "Enviar"
     }
   }
 }

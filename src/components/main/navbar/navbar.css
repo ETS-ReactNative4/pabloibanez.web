@@ -21,3 +21,10 @@
 .navbar.dark:not(.navbar-color) .navbar-nav>li>a:hover {
   color: #ef4836;
 }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .nav>li>a {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
