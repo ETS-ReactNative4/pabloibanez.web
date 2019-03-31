@@ -224,6 +224,12 @@
     ]
   },
   {
+    "name": "Webpack",
+    "types": [
+      "frontend"
+    ]
+  },
+  {
     "name": "Wordpress",
     "types": [
       "other"
